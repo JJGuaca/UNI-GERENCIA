@@ -1,0 +1,163 @@
+@import url(../fonts/eurofurence/eurofurence.css);
+.nube {
+  margin-left: 5px;
+  padding-left: 70px;
+  position: absolute;
+  top: 0px;
+  left: 130px;
+  z-index: 10;
+}
+.nube1 {
+  text-align: left;
+}
+.nube2 {
+  text-align: center;
+}
+.nube3 {
+  text-align: center;
+}
+.nube3 .i {
+  left: 593px;
+  transform: rotate(-162deg);
+}
+/**
+ * arriba
+ */
+.a {
+  border-color: transparent transparent #29c8f5;
+  border-style: solid;
+  border-width: 1em;
+  margin: 0 auto;
+  width: 0;
+}
+.b {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: auto;
+  width: 8em;
+  background: #29c8f5;
+  color: #fff;
+  text-align: center;
+  overflow: auto;
+  border-radius: 8px;
+}
+.c {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: auto;
+  width: 15em;
+  background: #ff871d;
+  color: #fff;
+  text-align: center;
+  overflow: auto;
+  border-radius: 8px;
+}
+/**
+ * abajo
+ */
+.d {
+  margin: 0 auto;
+  width: 0;
+  border-color: #ff871d transparent transparent;
+  border-style: solid;
+  border-width: 1em;
+}
+.e {
+  margin: 0 auto;
+  width: 0;
+  border-color: transparent #36e083 transparent transparent;
+  border-style: solid;
+  border-width: 1em;
+  position: absolute;
+  top: 35%;
+  left: 37.3%;
+}
+.f {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: auto;
+  width: 12em;
+  background: #36e083;
+  color: #fff;
+  text-align: center;
+  overflow: auto;
+  border-radius: 8px;
+}
+.g {
+  margin: 0 auto;
+  width: 0;
+  border-color: transparent transparent transparent #937e70;
+  border-style: solid;
+  border-width: 1em;
+  position: absolute;
+  top: 36%;
+  left: 62.3%;
+}
+.h {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: auto;
+  width: 15em;
+  background: #937e70;
+  color: #fff;
+  text-align: center;
+  overflow: auto;
+  border-radius: 8px;
+}
+/**
+ * abajo larga
+ */
+.l{
+  margin: 0 auto;
+  width: 0;
+  border-bottom: 20px solid transparent;
+  border-right: 100px solid rgb(98, 97, 101);
+  border-top: 20px solid transparent;
+  transform: rotate(-140deg);
+  bottom: -35px;
+  position: absolute;
+  right:5%;
+  z-index:99;
+  
+}
+.nube3 .i,
+.nube2 .i,
+.nube1 .i {
+  border-bottom: 20px solid transparent;
+  border-right: 100px solid rgb(122, 193, 0);
+  border-top: 20px solid transparent;
+  height: 0px;
+  margin: 0px auto;
+  position: absolute;
+  top: 35%;
+  width: 0px;
+}
+.nube2 .i,
+.nube1 .i {
+  left: 0px;
+  transform: rotate(-19deg);
+}
+.j {
+  font-family: 'eurof35';
+  font-size: 16px;
+  position: relative;
+  margin: 0 auto;
+  padding:  21px;
+  height: auto;
+  background: rgb(122, 193, 0);
+  color: #fff;
+  overflow: auto;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(70,70,70,0.5);
+  color: rgba(255,255,255,1);
+  padding: 2px;
+}
+h1,
+p {
+  padding: 0;
+  font-weight: 100;
+}

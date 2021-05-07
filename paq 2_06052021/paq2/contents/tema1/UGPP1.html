@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--//
+      _________________________________________________________
+      |                                                         |
+      |  @Propietario :  Estrategia y Conocimiento SAS ©2015    |
+      |  @Producto    :  Plantilla integración SCORM 1.2        |
+      |  @Archivo base:  ESTRATCO_SCORM12_CONTENT_v1.dwt v.1.0.0|
+      |  @Descripción :  Plantilla para integración de cursos   |
+      |                  con soporte a ejecución en internet,   |
+      |                  local, CD y desde LMS SCORM 1.2.       |
+      |  @Navegación  :  Líneal.                                |
+      |  @Derechos    :  Derechos totalmente reservados para su |
+      |                  distribución, copia o modificación,    |
+      |                  salvo expresa autorización de:         |
+      |                  Estrategia y Conocimiento SAS.         |
+      |_________________________________________________________|
+      //-->
+      <title>Módulo 1</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+      <!-- CARGA DE ARCHIVOS DE ESTILOS DEL CURSO -->
+      <!-- <link href="../../../favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /> -->
+      <link href="../../api/view/css/core/general.css" rel="stylesheet" type="text/css"/>
+      <link href="../../api/view/css/views/content/content.css" rel="stylesheet" type="text/css"/>
+      <!-- InstanceBeginEditable name="headCSSModules" -->
+      <link href="../../api/controller/modules/fancybox/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../api/view/css/modules/capa/capa.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../api/view/css/modules/panels/panels.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../api/view/css/modules/listSlider/listSlider.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../api/view/css/modules/scroll/scroll.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../contents/resources/css/ug_diapo1/ug_diapo1.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../contents/resources/css/ug_diapo1/ug_diapo1_0.css" rel="stylesheet" type="text/css" media="screen" />
+      <link rel="stylesheet" href="../../api/view/css/core/ug_general/reajuste.css">
+      <link rel="stylesheet" href="../resources/css/ug_diapo1/recursoPuntos.css">
+      <!-- CARGA DE COMPORTAMIENTOS DEL CURSO -->
+      <script src="../../api/controller/core/jquery/jquery-1.10.2.min.js"></script>
+      <script src="../../api/controller/core/json/json2.js"></script>
+      <script src="../../api/controller/core/debuger/debuger.js"></script>
+      <script src="../../api/controller/config/config.js"></script>
+      <script src="../../api/controller/core/browserFixes/browserFixes.js"></script>
+      <script src="../../api/controller/core/localStorage/localStorage.js"></script>
+      <script src="../../api/controller/modules/data_store/amplify.store.min.js"></script>
+      <script src="../../api/controller/modules/countDown/countDown.js"></script>
+      <script src="../../api/controller/modules/scroll/scroll.js"></script>
+      <script src="../../api/controller/core/resourceController/resourceController.js"></script>
+      <script src="../../api/controller/core/contentController/contentController.js"></script>
+      <script src="../../api/controller/core/locator/locator.js"></script>
+      <script src="../../api/controller/core/scorm/APIWrapper12.js"></script>
+      <script src="../../api/controller/core/scorm/SCOFunctions12.js"></script>
+      <script src="../../api/controller/core/topicsLoader/topicsLoader.js"></script>
+      <!-- InstanceBeginEditable name="headJSModules" -->
+      <script src="../../api/controller/modules/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+      <script src="../../api/controller/modules/preload_images/preload_images.js"></script>
+      <script src="../../api/controller/modules/scroll/scroll.js"></script>
+      <script src="../../api/controller/modules/capa/capa.js"></script>
+      <script src="../../api/controller/modules/panels/panels.js"></script>
+      <script src="../../api/controller/modules/listSlider/listSlider.js"></script>
+      <script src="../../api/controller/modules/modal/modal.js"></script>
+      <script src="../../api/controller/modules/contentRewriter/contentRewriter.js"></script>
+      <!-- InstanceEndEditable -->
+      <script src="../../api/controller/views/content/content.js"></script>
+      <script src="../../contents/resources/js/ug_diapo1/ug_diapo1.js"></script>
+      <script src="../resources/js/ug_diapo1/recursoPuntos.js" ></script>
+      <!-- InstanceBeginEditable name="head" -->
+      <style type="text/css" media="screen">
+        a.fancybox-item.fancybox-close{
+          display: none;
+        }
+      </style>
+      <script>
+        $(document).ready(function() {
+          /* EJECUCIÓN DE CÓDIGOS AL CARGARSE EL CONTENIDO */
+// Porcentaje de recursos que deben ser explorados en la página
+vPorcentajeLocalCompletado = 0.9;
+// Inicializa las evaluaciones de esta página
+COREContentController.initEvaluacionesContenido(0 /* Número de evaluaciones */, 0 /* Nota promedio mínima */);
+    // Tiempo mínimo que el usuario debe permanecer en el contenido
+    viewContent.initTimeRequiered(0 /* Minutos */, 0 /* Segundos */);
+  });
+// 
+jQuery(document).ready(function($) {
+  if(localStorage['inicio']==null){
+
+   $("#c6").click();
+   $("#nubeIzq2").css("display", "none");
+   $("#victoria2").css('display', 'none');
+   setTimeout(function () {
+    $("a.fancybox-item.fancybox-close").css("display", "block").click(function(event) {
+           $("#nubeIzq2").css("display", "block");
+           $("#victoria2").css('display', 'block');
+    });
+  },10000);
+ }
+});
+
+</script>
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="capa" type="boolean" value="false" -->
+</head>
+
+<body>
+  <div id="wrap">
+   <div id="wrap_content">
+    <!-- HEADER DEL CONTENIDO -->
+    <div class="COREHeader">
+      <img src="../../api/view/images/content/header/logo-UGPP.jpg" alt="Logo UGPP" class="imgEspecial imgLogoUGPP">
+      <div class="CORENavigationMenu">
+        <div class="COREToolsContanier">
+          <!-- CONTROL DEL TIEMPO EN LA PÁGINA -->
+          <div class="CORELocalTimeControl"><span>min</span><br>00<br><span>seg</span><br>00</div>
+          <img id="imgTimeControl" src="../../api/view/images/content/header/imgClock.png" alt="Tiempo" class="imgEspecial">
+          <!-- ACCESO A LAS ACTIVIDADES DEL MÓDULO -->
+          <a href="#" id="enlaceVerActividades" onMouseOut="MM_swapImgRestore()" 
+          onMouseOver="MM_swapImage(
+
+          'imgActivities','','../../api/view/images/content/header/imgActivities_on.png',1) "
+          title="Ver actividades"><img src="../../api/view/images/content/header/imgActivities.png" alt="Actividades" name="imgActivities" class="imgEspecial" id="imgActivities" border="0"></a>
+          <!-- BARRA DE PROGRESO LOCAL -->
+          <div class="CORELocalProgressBarSeparator"></div>
+          <div class="CORELocalProgressBar">
+            <div class="CORELocalProgressBarIndicator"></div>
+            <div class="CORELocalProgressBarPercentage">0%</div>
+          </div>
+        </div>
+        <img src="../../api/view/images/content/header/imgSep1.jpg" width="13" height="46" class="imgEspecial">
+        <!-- ACCESO A LOS TEMAS DEL MÓDULO -->
+        <a id="linkMenuTemas" href="#" title="Ver temas" onClick="return false;" onFocus="this.blur();" class="COREMenu">Temas <img src="../../api/view/images/general/vineta-flecha.png" border="0"></a>
+        <a id="linkMenuNavegacion" href="#" onClick="return false;" onFocus="this.blur();" title="Ver menú de navegación" class="COREMenu">Menú de Navegación <img src="../../api/view/images/general/vineta-flecha.png" border="0">
+        </a>
+        <img src="../../api/view/images/content/header/imgSep2.jpg" width="6" height="46" class="imgEspecial">
+        <!-- CONTROLES DE NAVEGACIÓN -->
+        <div class="CORENavigationMenuControls">
+          <!-- HIPERVÍNCULO PARA NAVEGAR A LA ANTERIOR PÁGINA -->
+          <a id="linkBack" href="#" onMouseOut="" onMouseOver="" title="Ir a la anterior página" class="COREMenuControls" onFocus="this.blur();" onClick="CORELocator.requestNavigation();"><img src="../../api/view/images/general/vineta-flecha2.png" border="0"> Anterior</a>
+          <img id="imgLinkBack" src="../../api/view/images/content/header/imgSep3.png" width="5" height="36" class="imgEspecial COREMenuControlsSep">
+          <!-- HIPERVÍNCULO PARA NAVEGAR A LA SIGUIENTE PÁGINA -->
+          <a id="linkNext" href="#" onMouseOut="" onMouseOver="" title="Ir a la siguiente página" class="COREMenuControls" onFocus="this.blur();" onClick="CORELocator.requestNavigation();">Siguiente <img src="../../api/view/images/general/vineta-flecha.png" border="0"></a>
+          <img id="imgLinkNext" src="../../api/view/images/content/header/imgSep3.png" width="5" height="36" class="imgEspecial COREMenuControlsSep">
+          <!-- POSICIÓN DEL CONTENIDO ACTUAL EN EL MÓDULO -->
+          <span id="txtPaginaActual">00 de 00</span>
+        </div>
+        <img src="../../api/view/images/content/header/imgSep4.png" width="4" height="47" class="imgEspecial">
+      </div>
+      <div class="COREMigaPan">
+        <!-- NOMBRE DEL CURSO/PROGRAMA -->
+        <span id="txtNombreCurso">Programa</span>
+        <!-- NÚMERO DEL MÓDULO -->
+        <img src="../../api/view/images/general/vineta-flecha.png">
+        <span id="txtNumModulo"> Módulo X</span>
+        <!-- NOMBRE DEL MÓDULO -->
+        <span class="txtPepaNombreModulo"> &#8226; </span>
+        <span id="txtNombreModulo">Nombre módulo </span>
+        <!-- NOMBRE DEL TEMA -->
+        <img src="../../api/view/images/general/vineta-flecha.png">
+        <span id="txtNombreTema"> Nombre tema</span>
+      </div>
+    </div>
+    <div class="CORESpaceUnderHeader"></div>
+    <!-- CONTENIDO DE LA PÁGINA -->
+    <div class="COREContenido">
+      <div class="COREInnerContenido">
+        <section class="principal">
+          <div id="victoria2" class="avatar avatar3  "></div>
+          <div id="nubeIzq2" class="nube nube2 ug_burbuja   ">
+           <div class="i"></div>
+           <div class='j'  > <p>Bienvenido al Programa de Análisis de Estados Financieros para la Determinación de Obligaciones Parafiscales.<br>
+            Soy Victoria y te acompañaré en este proceso de formación.<br>
+            Para comenzar, te invito a dar clic en los siguientes botones donde
+            conocerás el Objetivo, la Justificación y el Plan de Estudios.</p>
+
+          </div>
+        </div>
+
+      <!-- TemplateBeginEditable name="editContenido"
+
+      <!--     <span > <p>Bienvenido al <strong> Programa de Análisis de Estados Financieros para la Determinación de Obligaciones Parafiscales.</strong> Soy Victoria y te acompañaré en este proceso de formación. Para comenzar, te invito a dar clic en los siguientes botones donde conocerás el Objetivo, la Justificación y el Plan de Estudios.</p></span> -->
+
+
+
+      <div id="contenidoModulo">
+        <article id="objetivo">
+          <span class="titulo">Objetivo</span><br><br>
+          Profundizar en la forma como se analizan correctamente los hechos económicos que se
+          consignan en los estados financieros de las empresas objeto de fiscalización, y con ello,
+          identificar los elementos fundamentales para precisar los valores y cualificar los temas de
+          inexactitud de pago u omisión del pago de aportes al sistema.
+        </article>
+
+        <article id="justificacion">
+          <span class="titulo azulClaroTexto">Justificación</span><br><br>
+          Las Contribuciones Parafiscales son gravámenes establecidos por la ley con carácter obligatorio,
+          que afectan a un determinado y único grupo social o económico y se utilizan para beneficio del
+          propio sector, el cumplimiento de pago por parte de los empleadores y trabajadores
+          independientes se convierte en parte fundamental de la política del bienestar social y del
+          cumplimiento de las metas que establece el Estado Colombiano para la búsqueda de la equidad
+          y la mejora de las condiciones sociales de los trabajadores en el País, sin embargo, el pago de
+          estas contribuciones presentan en ocasiones inconsistencias en los reportes generados y ante 
+          esta situación, se requiere validar sus estados financieros para identificar los errores
+          presentados.<br><br>
+          Es por esto que se requiere que los funcionarios cuenten con el conocimiento de
+          las herramientas y metodologías que encierra el análisis de los documentos contables y
+          administrativos utilizados para el pago de las Contribuciones Parafiscales de la Protección social
+          lo cual les permitirá hacer más eficiente, segura y técnica su labor, y propender por la mejora de
+          los beneficios generales del sistema propuesto por el Estado Colombiano.
+
+        </article>
+
+        <article id="plan" >
+          <span class="titulo verdeTexto">Plan de Estudios</span><br><br>
+
+          <div id="contenedor1" class="contenedorPrincipalPuntos">
+            <div id="contenidoPuntos">
+              <article id="">
+                LA FUNCIÓN FINANCIERA.<br><br>
+                <ul>
+                  <li><strong>TEMA 1</strong></li> 
+                  Conceptos básicos.<br><br>
+                  <ol>
+                    <li>1.1. Pensamiento Económico</li>
+                    <li>1.2. Teoría General del Empleo.</li>
+                    <li>1.3. Economía, Microeconomía, Macroeconomía.</li>
+                  </ol>
+                </ul>
+              </article>
+              <article id="">
+                <ul>
+                 <li><strong>TEMA 2</strong></li>
+                 Las finanzas.<br><br>
+                 <ol>
+                  <li>2.1.  Definición </li>
+                  <li>2.2.  Objetivo</li>
+                  <li>2.3.  Decisiones</li>
+                  <li>2.4.  Decisiones de Inversión</li>
+                  <li>2.5.  Decisiones de Financiamiento</li>
+                  <li>2.6.  Maximizar Valor de la empresa</li>
+                  <li>2.7.  Decisiones de Dividendos</li>
+                </ol>
+              </ul>
+            </article>
+            <article id="">
+              <ul>
+                <li><strong>TEMA 3</strong></li>
+                Campo de acción de las finanzas.<br><br>
+                <ol >
+                  <li>3.1 Mercados Financieros.</li>
+                  <li>3.2 Instituciones Financieras</li>
+                  <li>3.3 Las finanzas Corporativas</li>
+                </ol><br>
+
+                <li><strong>TEMA 4</strong></li>
+                El ámbito financiero.<br><br>
+                <ol >
+                  <li>4.1. ámbito Externo</li>
+                  <li>4.2. ámbito Interno</li>
+                  <li>4.3. Diagnóstico</li>
+                </ol>
+              </ul>
+            </article>
+            <article id="">
+             <ul>
+              <li><strong>TEMA 5</strong></li>
+              Qué es el Análisis Financiero.<br><br>
+
+              <li><strong>TEMA 6</strong></li>
+              El Analista Financiero.<br><br>
+
+              <ol >
+                <li>6.1. Cualidades</li>
+                <li>6.2. Funciones</li>
+                <li>6.3. Responsabilidades</li>
+              </ol><br>
+              <li><strong>TEMA 7</strong></li>
+              Herramientas del Análisis Financiero.<br><br>
+
+              <ol>
+                <li>7.1.  Decreto 2649 de 1993</li>
+              </ol>
+            </ul>
+          </article>
+        </div>
+        <div id="botonesPuntos">
+          <div id="" >
+          </div>
+          <div id="" segSCORM="si">
+          </div>
+          <div id="" segSCORM="si">
+          </div>
+          <div id="" segSCORM="si">
+          </div>
+
+        </div>
+        <div id="derecha_caja">
+          <img src="../resources/img/f2.png" >
+        </div>
+        <div id="izquierda_caja">
+          <img src="../resources/img/f1.png">
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div id="botones">
+    <div id="btnObjetivo" class="btn " segSCORM="si">
+      <span>Objetivo</span>
+      <div class="btn_flecha"></div>
+    </div>
+    <div id="btnJustificacion" class="btn azul" segSCORM="si">
+      <span>Justificación</span>
+      <div class="btn_flecha"></div>
+    </div>
+    <div id="btnPlan" class="btn verde" segSCORM="si">
+      <span>Plan de Estudios</span>
+      <div class="btn_flecha"></div>
+    </div>
+  </div>
+  <!-- TemplateEndEditable -->
+</section>
+</div>
+</div>
+<!-- FOOTER DE LA PÁGINA -->
+<div class="COREFooter"></div>
+</div>
+</div>
+<!-- HIPERVÍNCULO PARA REGRESAR AL INICIO DE LA PÁGINA -->
+<a href="#" class="back-to-top">
+  <img src="../../api/view/images/general/subir.png" alt="Subir" border="0"/>
+</a>
+<!-- MENÚ DE ACTIVIDADES DESPLEGABLE DEL HEADER -->
+<div class="mnMenuActividades mnHide">
+  <div class="tituloMenuActividades" title="Cerrar menú" onClick="viewContent.showMenuActividades(false,null); return false;">Menú de actividades <span>x</span></div>
+  <div class="contentMenuActividades">
+    <div class="innerMenuActividades">
+      <ul>
+        <!-- InstanceBeginEditable name="editMenuActividades" -->
+        <li><a href="#" title="Actividad 1" onFocus="this.blur();" class="modalActividad">Ver la actividad 1</a></li>
+        <li><a href="#" title="Actividad 2" onFocus="this.blur();" class="modalActividad">Ver la actividad 2</a></li>
+        <li><a href="#" title="Actividad 3" onFocus="this.blur();" class="modalActividad">Ver la actividad 3</a></li>
+        <li><a href="#" title="Actividad 4" onFocus="this.blur();" class="modalActividad">Ver la actividad 4</a></li>
+        <li><a href="#" title="Actividad 5" onFocus="this.blur();" class="modalActividad">Ver la actividad 5</a></li>
+        <li><a href="#" title="Actividad 6" onFocus="this.blur();" class="modalActividad">Ver la actividad 6</a></li>
+        <li><a href="#" title="Actividad 7" onFocus="this.blur();" class="modalActividad">Ver la actividad 7</a></li>
+        <li><a href="#" title="Actividad 8" onFocus="this.blur();" class="modalActividad">Ver la actividad 8</a></li>
+        <!-- InstanceEndEditable -->
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="mnMenuActividadesCapa" onMouseOver="viewContent.showMenuActividades(false,null);"></div>
+<!-- MENÚ DE NAVEGACIÓN DESPLEGABLE DEL HEADER -->
+<div class="mnMenuNavegacion mnHide">
+  <div class="tituloMenuNavegacion" title="Cerrar menú" onClick="viewContent.showMenuNavegacion(false,null); return false;">Menú de navegación <span>x</span></div>
+  <div class="contentMenuNavegacion">
+    <div class="innerMenuNavegacion">
+     <ul>
+       <!-- InstanceBeginEditable name="editMenuNavegacion" -->
+      <li><a href="../tools/bibliografia/index.html" title="Bibliografía" onFocus="this.blur();" class="modalAyuda">Bibliografía</a></li>
+         <li><a href="../tools/glosario/glosario.pdf" target="_blank" title="Glosario" onFocus="this.blur();">Glosario</a></li>
+         <!-- <li><a href="../tools/faq/index.html" title="Preguntas frecuentes" onFocus="this.blur();" class="modalAyuda">Preguntas frecuentes</a></li> -->
+         <!-- <li><a href="../tools/normatividad/index.html" title="Normatividad" onFocus="this.blur();" class="modalAyuda">Normatividad</a></li> -->
+         <!-- <li><a href="../tools/lecturas/index.html" title="Lecturas" onFocus="this.blur();" class="modalAyuda">Lecturas</a></li> -->
+         <!-- <li><a href="../tools/medios/index.html" title="Medios" onFocus="this.blur();" class="modalAyuda">Medios</a></li> -->
+         <li><a href="../tools/guia/index.html" title="Guía de navegación" onFocus="this.blur();" class="modalAyuda">Guía de navegación</a></li>
+     </ul>
+   </div>
+ </div>
+</div>
+<div class="mnMenuNavegacionCapa" onMouseOver="viewContent.showMenuNavegacion(false,null);"></div>
+<!-- MENÚ DE TEMAS DESPLEGABLE DEL HEADER -->
+<div class="mnMenuTemas mnHide">
+  <div class="tituloMenuTemas" title="Cerrar menú" onClick="viewContent.showMenuTemas(false,null); return false;">Temas <span>x</span></div>
+  <div class="contentMenuTemas">
+    <div class="innerMenuTemas">
+      <ul>
+        <li class="liTituloModulo"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="mnMenuTemasCapa" onMouseOver="viewContent.showMenuTemas(false,null);"></div>
+</body>
+</html>

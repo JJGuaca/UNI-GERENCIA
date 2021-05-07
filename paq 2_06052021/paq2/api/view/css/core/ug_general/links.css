@@ -1,0 +1,53 @@
+#descarga1
+{
+  position: absolute !important;
+  width: 330px !important;
+  right: -10px;
+}
+
+#descarga1>a>span
+{
+  width: 260px;
+}
+#descarga1>a>figure , #descarga1>a>span
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#descarga1>a
+{
+
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+#links
+{
+  /* border: 1px solid rgba(70,70,70,1); */
+  box-shadow: 0 0 5px rgba(70,70,70,0.6);
+  background: rgba(255,255,255,1);
+  position: absolute;
+  top: -48px;
+  left: -321px;
+  width: 502px;
+  z-index: 3;
+  font-size: 12px;
+
+}
+
+#links>ul
+{
+  margin: 0;
+}
+
+#links>ul>li>a
+{
+  text-decoration: none;
+  color: rgba(70,70,70,1);
+}
+
+.revisado
+{
+  color: blue !important;
+}

@@ -1,0 +1,314 @@
+
+#contenidoContenedor
+{
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+#botonesContenedorMultiplePuntosPopup
+{
+	    background: rgb(230,230,230);
+	/*background: url(ciclo1.png) no-repeat;*/
+	    display: block;
+    width: 700px;
+    height: 470px;
+	    position: absolute;
+    text-align: right;
+    left: 20px;
+    top: 0px;
+    z-index: 20;
+}
+
+#botonesContenedorMultiplePuntosPopup>div>span
+{
+	color: rgba(70,70,70,1);
+	margin-left: 5px;
+/*	left: 12px;
+	top: 7px;
+	position: relative;*/
+}
+
+#contenidoContenedor>article
+{
+    font-family: 'ubuntu_regular';
+    font-size: 11px;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    opacity: 1;
+    height: 510px;
+    overflow: hidden;
+    width: 100%;
+}
+.contenedorPrincipalContenedorMultiplePuntosPopup
+{
+	    position: relative;
+    margin-left: 20px;
+    width: 960px;
+
+}
+
+/*Estilos para el boton del sniipet contenedor*/
+
+.botonContenedor
+{
+	/*box-shadow: 0 1px 5px rgba(70,70,70,0.5);*/
+	/*border: 1px solid black;*/
+	color: rgba(255,255,255,1);
+	font-size: 11px;
+	font-family: 'ubuntu_regular';
+	position: absolute;
+	cursor: pointer;
+
+	padding: 5px;
+	text-align: left;
+	width: 145px;
+	/*margin-bottom: 8px;*/
+}
+
+
+
+.btn_flecha
+{
+	background: url(btn_flecha.png) no-repeat ;
+	background-position: center;
+	background-color: rgba(255,255,255,0.5); 
+	position: absolute;
+	right: 0px;
+	top: 0;
+	width: 10px;
+	height: 100%;
+}
+
+
+
+/*Estilos de contenedores de puntos*/
+
+.botonesPuntos
+{
+	position: absolute;
+	bottom: -20px;
+	right: 10px;
+	z-index: 2;
+}
+
+.botonesPuntos>div
+{
+	/*background: rgba(255, 129, 52,1);*/
+	border-radius: 50% 50%;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 2px;
+	height: 8px;
+	width: 8px;
+
+}
+
+.articulosPuntos
+{
+	background: rgba(255,255,255,1);
+	color: rgba(255,255,255,1);
+	padding: 10px 20px 10px 20px;
+	position: relative;
+	height: 94%;
+}
+
+.articulosPuntos>article
+{
+	position: relative;
+	color: rgba(92, 92, 92,1);
+	width: 100%;
+}
+
+.pPuntoActivo
+{
+	background: rgba(70,70,70,1) !important;
+}
+
+
+#izquierda
+{
+	cursor: pointer;
+	position: absolute;
+	top: 220px;
+	left: -15px;
+}
+
+#izquierda>img
+{
+	width: 25px;
+	height: 25px;
+}
+
+#derecha
+{
+	cursor: pointer;
+	position: absolute;
+	top: 220px;
+	right: -15px;
+}
+
+#derecha>img
+{
+	width: 25px;
+	height: 25px;
+}
+
+
+.cajaPopPunto
+{
+	position: relative;
+	z-index: 10;
+}
+
+.colorLista
+{
+	color: rgba(70,70,70,1) !important;
+}
+
+
+
+#menu
+{
+	background: rgb(70,70,70);
+
+	position: absolute;
+	left: -20px;
+	padding: 2px;
+	cursor: pointer;
+}
+
+
+#ciclo1
+{
+	position: absolute;
+	left: 160px;
+	top: 50px;
+}
+
+#botonesContenedorMultiplePuntosPopup>div>img , #botonesContenedorMultiplePuntosPopup>div>span
+{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+
+#bc0
+{
+    top: 23px;
+    left: 330px;
+}
+
+#bc0>img
+{
+	position: relative;
+	top: 10px;
+}
+
+#bc1
+{
+	top: 52px;
+    left: 450px;
+}
+
+#bc2
+{
+	top: 144px;
+    left: 516px;
+}
+
+#bc3
+{
+	    top: 268px;
+    left: 516px;
+}
+
+#bc4
+{
+	    top: 355px;
+    left: 454px;
+}
+
+#bc5
+{
+	    top: 412px;
+    left: 330px;
+}
+
+#bc5>img
+{
+	position: relative;
+	top: -15px;
+}
+
+#bc6 {
+    top: 352px;
+    left: 116px;
+}
+#bc7 {
+    top: 258px;
+    left: 94px;
+    width: 170px;
+}
+#bc8 {
+    top: 152px;
+    left: 66px;
+}
+#bc9 {
+    top: 56px;
+    left: 135px;
+}
+
+
+.punto1
+{
+background-color: #D04900 ;
+}
+
+.punto2
+{
+background-color: #FFC017 ;
+}
+
+.punto3
+{
+background-color: #65A200  ;
+}
+
+.punto4
+{
+background-color: #00B9A6  ;
+}
+
+.punto5
+{
+background-color: #0070A2 ;
+}
+
+.punto6
+{
+background-color: #002773 ;
+}
+
+.punto7
+{
+background-color: #2C005C  ;
+}
+
+.punto8
+{
+background-color: #52008B  ;
+}
+
+.punto9
+{
+background-color: #5C0051 ;
+}
+
+.punto10
+{
+background-color: #E71400  ; 
+}

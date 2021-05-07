@@ -1,0 +1,74 @@
+#santiago1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:20px;
+  top:18px;
+}
+
+#nubeIzq4{
+  line-height:20px;
+  height: 170px;
+  width: 410px;
+  font-size:16px;
+  margin:-10px 0px 0px;
+  position:absolute;
+  left:200px;
+  top:65px;
+}
+
+
+#nube3
+{
+  height: 95px !important;
+}
+
+
+#c1
+{
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+
+#c2
+{
+ position: absolute;
+ top: 270px;
+ left: 690px;
+}
+
+#texto
+{
+  position: absolute;
+  top: 220px;
+  left: 220px;
+  width: 700px;
+  opacity: 0;
+}
+
+.lista
+{
+  list-style: disc !important;
+}
+
+#botondoc2 {
+  line-height:20px;
+  height:67px;
+  width:56px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left: 440px;
+  top: 270px;
+}
+
+#botondoc2>span{
+  display: block;
+  width: 200px;
+  margin-left: -70px;
+  text-align: center;
+}

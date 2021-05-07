@@ -1,0 +1,46 @@
+<!-- ****************boton********************** -->
+<textarea id="botonHtml" class="vHtml Vnode1" name="boton">
+    <div id='' class='btn '  >
+        <span editable></span>
+        <div class='btn_flecha'></div>
+    </div>
+</textarea>
+<textarea id="botonCss" class="vCss Vnode1" name="boton">
+    .btn {
+    color: rgba(255,255,255,1);
+    font-size: 16px;
+    font-family: 'ubuntu_regular';
+    position: relative;
+    background: rgba(80, 79, 83,1);
+    cursor: pointer;
+    height: 28px;
+    text-align: center;
+    width: 150px;
+}
+</textarea>
+<textarea id="botonJs" class="vJs Vnode1" name="boton">
+    $('.btn').click(function(event) {
+    /* Act on the event */
+});
+</textarea>
+<!-- ****************Fin boton********************** -->
+<!-- ****************nube********************** -->
+<textarea id="nubeHtml" class="vHtml  Vnode2" name="nube">
+  <div id='' class='nube nube2 ug_burbuja '>
+     <div class="i"></div>
+     <div class='j' style='padding: 20px 20px; height: 100% ' editable>
+
+     </div>
+ </div>
+</textarea>
+<textarea id="nubeCss" class="vCss  Vnode2" name="nube">
+    .nube>.j{
+      padding-bottom: 0 !important;
+    }
+</textarea>
+<textarea id="nubeJs" class="vJs  Vnode2" name="nube">
+    $('.btn').click(function(event) {
+    /* Act on the event */
+});
+</textarea>
+<!-- ****************Fin nube********************** -->

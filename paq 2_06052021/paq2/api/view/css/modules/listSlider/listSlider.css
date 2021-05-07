@@ -1,0 +1,94 @@
+@charset "utf-8";
+/*------------------------------------------------------
+	Propietario:	Estrategia y Conocimiento SAS ©2015
+  Producto: 		Plantilla integración SCORM 1.2
+  Información:	Hoja de estilos listSlider.
+  Derechos:			Derechos totalmente reservados para su
+  							distribución, copia o modificación,
+                salvo expresa autorización de:
+                Estrategia y Conocimiento SAS.
+--------------------------------------------------------*/
+
+/*********************************************************
+	SEGMENTO: ESTILOS PANELES
+**********************************************************/
+div.cMODListSlider{
+	display:inline-block;
+	border:1px solid #e7e7e7;
+	/*height:500px;*/
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+div.cMODListSlider table.innerMODListSlider{
+	position:relative;
+	margin-top:2px;
+	z-index:1;
+}
+div.cMODListSlider td.pesMODListSlider{
+	padding-right:5px;
+	cursor:pointer;
+	height:32px;
+}
+div.cMODListSlider td.numMODListSlider{
+	color:#FFF;
+	font-size:26px;
+	font-weight:bold;
+	padding-right:7px;
+	padding-left:7px;
+	border-right: 1px solid #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter: alpha(opacity=70); 
+	-khtml-opacity: 0.7;      
+	-moz-opacity: 0.7;       
+	opacity: 0.7;           
+	cursor:pointer;
+}
+div.cMODListSlider td.pesMODListSlider.colorMODListSlider1, div.cMODListSlider td.numMODListSlider.colorMODListSlider1{
+	background-color:#8f3897;
+}
+div.cMODListSlider td.pesMODListSlider.colorMODListSlider2, div.cMODListSlider td.numMODListSlider.colorMODListSlider2{
+	background-color:#75bdd9;
+}
+div.cMODListSlider td.pesMODListSlider.colorMODListSlider3, div.cMODListSlider td.numMODListSlider.colorMODListSlider3{
+	background-color:#bdd979;
+}
+div.cMODListSlider td.pesMODListSlider.colorMODListSlider4, div.cMODListSlider td.numMODListSlider.colorMODListSlider4{
+	background-color:#b1c5c8;
+}
+div.cMODListSlider td.pesMODListSlider.colorMODListSlider5, div.cMODListSlider td.numMODListSlider.colorMODListSlider5{
+	background-color:#6f7777;
+}
+div.cMODListSlider div.divMODListSlider{
+	color:#fff;
+	border:2px solid #fff;
+	border-left:none;
+	padding:18px 18px 8px 85px;
+	position:absolute;
+	top:0px;
+	max-width:855px;
+	left:-2000px;
+	width:100%;
+}
+div.cMODListSlider div.divMODListSlider.colorMODListSlider1{
+	background-color:#bc88c1;
+}
+div.cMODListSlider div.divMODListSlider.colorMODListSlider2{
+	background-color:#276a84;
+}
+div.cMODListSlider div.divMODListSlider.colorMODListSlider3{
+	background-color:#768d40;
+}
+div.cMODListSlider div.divMODListSlider.colorMODListSlider4{
+	background-color:#3b6f75;
+}
+div.cMODListSlider div.divMODListSlider.colorMODListSlider5{
+	background-color:#0f1c1d;
+}
+div.cMODListSlider a.aCloseMODListSlider{
+	color:#FFF;
+	position:absolute;
+	text-decoration:none;
+	right:8px;
+	top:0;
+}

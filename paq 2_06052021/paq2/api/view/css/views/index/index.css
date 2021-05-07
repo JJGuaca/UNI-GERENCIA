@@ -1,0 +1,213 @@
+@charset "utf-8";
+/*------------------------------------------------------
+	Propietario:	Estrategia y Conocimiento SAS ©2015
+  Producto: 		Plantilla integración SCORM 1.2
+  Información:	Hoja de estilos index.
+  Derechos:			Derechos totalmente reservados para su
+  							distribución, copia o modificación,
+                salvo expresa autorización de:
+                Estrategia y Conocimiento SAS.
+                --------------------------------------------------------*/
+
+/*********************************************************
+	SEGMENTO: ESTILOS BODY Y CONTENEDOR GENERAL
+	**********************************************************/
+	body {
+		background: #222 url('../../../images/index/fondo1.png') 0 0;
+	}
+	.mainCargadoPopUp:before,
+	.mainPregunta:before,
+	.mainProblema:before {
+		content: '';
+		background: url('../../../images/index/fondo2.png') 0 0;
+		width: 431px;
+		height: 595px;
+		position: absolute;
+		top: -196px;
+		left: -53px;
+		z-index: -1;
+	}
+	div#wrap div#wrap_content {
+		width:100%;
+		height:100%;
+	}
+
+/*********************************************************
+	SEGMENTO: ESTILOS ESCENARIO CARGANDO CONTENIDO
+	**********************************************************/
+	div#wrap div#wrap_content .mainCarga {
+		position:absolute;
+		top:30%;
+		left:0;
+		right:0;
+		width:91%;
+		max-width:300px;
+		height:auto;
+		padding:0px 5px;
+		margin:auto;
+		display:none;
+	}
+	div#wrap div#wrap_content .mainCarga p {
+		font-size:16px;
+		color:#888;
+		text-align:center;
+	}
+/*********************************************************
+	SEGMENTO: ESTILOS ESCENARIO POPUP BLOQUEADO
+	**********************************************************/
+	div#wrap div#wrap_content .mainProblema {
+		position:absolute;
+		top:25%;
+		left:0;
+		right:0;
+		width:91%;
+		max-width:300px;
+		height:auto;
+		padding:0px 5px;
+		margin:auto;
+		display:none;
+	}
+	div#wrap div#wrap_content .mainProblema p {
+		font-size:13px;
+		color:rgba(253, 252, 251, 0.76);
+		text-align:justify;
+		margin-top: 5px;
+	}
+	div#wrap div#wrap_content .mainProblema div.innerMainProblem {
+		position:absolute;
+		left:8%;
+		width:90%;
+		height:auto;
+		display:inline-block;
+	}
+	div#wrap div#wrap_content .mainProblema div.innerMainProblem a{
+		text-decoration:none;
+		float:left;
+		font-size:13px;
+		color:#fff;
+		text-align:center;
+		max-width:120px;
+		width:40%;
+		min-height:75px;
+		margin:5px;
+		padding:5px;
+		border:1px dashed #fff;
+	}
+	div#wrap div#wrap_content .mainProblema div.innerMainProblem a:hover{
+		color:#CCC;
+		border:1px dashed #fff;
+		background-color:rgba(56, 51, 47, 0.45);
+	}
+/*********************************************************
+	SEGMENTO: ESTILOS ESCENARIO PREGUNTA ACCIÓN A TOMAR
+	**********************************************************/
+	div#wrap div#wrap_content .mainPregunta {
+		position:absolute;
+		top:25%;
+		left:0;
+		right:0;
+		width:91%;
+		max-width:300px;
+		height:auto;
+		padding:0px 5px;
+		margin:auto;
+		display:none;
+	}
+	div#wrap div#wrap_content .mainPregunta p {
+		font-size:13px;
+		color:#888;
+		text-align:justify;
+	}
+	div#wrap div#wrap_content .mainPregunta div.innerMainPregunta {
+		position:absolute;
+		left:9%;
+		width:89%;
+		height:auto;
+		display:inline-block;
+	}
+	div#wrap div#wrap_content .mainPregunta div.innerMainPregunta a{
+		text-decoration:none;
+		float:left;
+		font-size:13px;
+		color:#888;
+		text-align:center;
+		max-width:120px;
+		width:38%;
+		min-height:75px;
+		margin:5px;
+		padding:5px;
+		border:1px dashed #333;
+	}
+	div#wrap div#wrap_content .mainPregunta div.innerMainPregunta a:hover{
+		color:#CCC;
+		border:1px solid #333;
+		background-color:#282828;
+	}
+/*********************************************************
+	SEGMENTO: ESTILOS ESCENARIO CONTENIDO POPUP CARGADO
+	**********************************************************/
+	div#wrap div#wrap_content .mainCargadoPopUp {
+		position:absolute;
+		top:25%;
+		left:0;
+		right:0;
+		width:91%;
+		max-width:300px;
+		height:auto;
+		padding:0px 5px;
+		margin:auto;
+		display:none;
+	}
+	div#wrap div#wrap_content .mainCargadoPopUp p {
+		font-size:13px;
+		color:#888;
+		text-align:justify;
+	}
+	div#wrap div#wrap_content .mainCargadoPopUp div.innerMainCargadoPopUp {
+		position:absolute;
+		left:9%;
+		width:89%;
+		height:auto;
+		display:inline-block;
+	}
+	div#wrap div#wrap_content .mainCargadoPopUp div.innerMainCargadoPopUp a{
+		text-decoration:none;
+		float:left;
+		font-size:13px;
+		color:#888;
+		text-align:center;
+		max-width:120px;
+		width:38%;
+		min-height:75px;
+		margin:5px;
+		padding:5px;
+		border:1px dashed #333;
+	}
+	div#wrap div#wrap_content .mainCargadoPopUp div.innerMainCargadoPopUp a:hover{
+		color:#CCC;
+		border:1px solid #333;
+		background-color:#282828;
+	}
+div#wrap div#wrap_content .mainPregunta p
+	{
+		color:rgba(253, 252, 251, 0.76);
+	}
+	div#wrap div#wrap_content .mainPregunta div.innerMainPregunta a{
+		text-decoration:none;
+		float:left;
+		font-size:13px;
+		color:#888;
+		text-align:center;
+		max-width:120px;
+		width:38%;
+		min-height:75px;
+		margin:5px;
+		padding:5px;
+		border:1px dashed #333;
+	}
+	div#wrap div#wrap_content .mainCargadoPopUp div.innerMainCargadoPopUp a:hover,
+	div#wrap div#wrap_content .mainPregunta div.innerMainPregunta a:hover{
+		color:#CCC;
+		border:1px dashed #fff;
+		background-color:rgba(56, 51, 47, 0.45);
+	}

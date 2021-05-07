@@ -1,0 +1,93 @@
+#jimena1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:759px;
+  top:17px;
+  }
+
+#santiago2{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:759px;
+  top:17px;
+  }
+#nubeIzq4 {
+    line-height: 20px;
+    height: 103px;
+    width: 480px;
+    font-size: 16px;
+    margin: -10px 0px 0px;
+    position: absolute;
+    left: 180px;
+    top: 50px;
+}
+#nube3
+{
+  height:120px !important;
+
+}
+
+
+#estrella3
+{
+      position: absolute;
+    top: 360px;
+    left: 330px;
+}
+
+#botondoc2
+{
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
+#nubeDer6 {
+    line-height: 20px;
+    height: 70px;
+    width: 480px;
+    font-size: 16px;
+    margin: -10px 0px 0px;
+    position: absolute;
+    left: 260px;
+    top: 157px;
+}
+
+#nube3{
+      height: 60px !important ;
+
+}
+#estrella1 {
+    line-height: 20px;
+    height: 70px;
+    width: 200px;
+    font-size: 13px;
+    margin: 0px;
+    position: absolute;
+    left: 370px;
+    top: 250px;
+}
+#botondoc2 {
+    line-height: 20px;
+    height: 66px;
+    width: 90px;
+    font-size: 13px;
+    margin: 0px;
+    position: absolute;
+    left: 436px;
+    top: 330px;
+}
+
+#botondoc2>span{
+  display: block;
+  width: 200px;
+  margin-left: -70px;
+  text-align: center;
+}

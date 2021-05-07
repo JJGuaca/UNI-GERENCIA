@@ -1,0 +1,37 @@
+#santiago1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left:750px;
+  top:0px;
+  }
+
+#nubeDer2 {
+    line-height: 20px;
+    height: 169px;
+    width: 410px;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    left: 307px;
+    top: 95px;
+}
+
+#nube3 {
+    padding-bottom: 0 !important;
+    height: 33% !important;
+}
+#img1{
+      position: absolute;
+    left: 265px;
+    top: 290px;
+
+}
+#img2 {
+    position: absolute;
+    left: 400px;
+    top: 221px;
+}

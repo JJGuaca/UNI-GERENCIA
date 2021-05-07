@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--//
+      _________________________________________________________
+      |                                                         |
+      |  @Propietario :  Estrategia y Conocimiento SAS ©2015    |
+      |  @Producto    :  Plantilla integración SCORM 1.2        |
+      |  @Archivo base:  ESTRATCO_SCORM12_CONTENT_v1.dwt v.1.0.0|
+      |  @Descripción :  Plantilla para integración de cursos   |
+      |                  con soporte a ejecución en internet,   |
+      |                  local, CD y desde LMS SCORM 1.2.       |
+      |  @Navegación  :  Líneal.                                |
+      |  @Derechos    :  Derechos totalmente reservados para su |
+      |                  distribución, copia o modificación,    |
+      |                  salvo expresa autorización de:         |
+      |                  Estrategia y Conocimiento SAS.         |
+      |_________________________________________________________|
+      //-->
+      <title>Módulo 1</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+      <!-- CARGA DE ARCHIVOS DE ESTILOS DEL CURSO -->
+      <link href="../../../favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+      <link href="../../api/view/css/core/general.css" rel="stylesheet" type="text/css"/>
+      <link href="../../api/view/css/views/content/content.css" rel="stylesheet" type="text/css"/>
+      <!-- InstanceBeginEditable name="headCSSModules" -->
+      <link href="../../api/controller/modules/fancybox/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../api/view/css/modules/capa/capa.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../api/view/css/modules/panels/panels.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../api/view/css/modules/listSlider/listSlider.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../api/view/css/modules/scroll/scroll.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../contents/resources/css/ug_diapo12/ug_diapo12.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="../../contents/resources/css/ug_diapo12/ug_diapo12_0.css" rel="stylesheet" type="text/css" media="screen" />
+      <link rel="stylesheet" href="../../api/view/css/core/ug_general/reajuste.css">
+
+      <link rel="stylesheet" href="../resources/css/ug_diapo12/popuppuntos.css">
+      <link rel="stylesheet" href="../resources/css/ug_diapo12/recursoMultipleContenedorPuntosPopup.css">
+
+
+      <!-- CARGA DE COMPORTAMIENTOS DEL CURSO -->
+      <script src="../../api/controller/core/jquery/jquery-1.10.2.min.js"></script>
+      <script src="../../api/controller/core/json/json2.js"></script>
+      <script src="../../api/controller/core/debuger/debuger.js"></script>
+      <script src="../../api/controller/config/config.js"></script>
+      <script src="../../api/controller/core/browserFixes/browserFixes.js"></script>
+      <script src="../../api/controller/core/localStorage/localStorage.js"></script>
+      <script src="../../api/controller/modules/data_store/amplify.store.min.js"></script>
+      <script src="../../api/controller/modules/countDown/countDown.js"></script>
+      <script src="../../api/controller/modules/scroll/scroll.js"></script>
+      <script src="../../api/controller/core/resourceController/resourceController.js"></script>
+      <script src="../../api/controller/core/contentController/contentController.js"></script>
+      <script src="../../api/controller/core/locator/locator.js"></script>
+      <script src="../../api/controller/core/scorm/APIWrapper12.js"></script>
+      <script src="../../api/controller/core/scorm/SCOFunctions12.js"></script>
+      <script src="../../api/controller/core/topicsLoader/topicsLoader.js"></script>
+      <!-- InstanceBeginEditable name="headJSModules" -->
+      <script src="../../api/controller/modules/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+      <script src="../../api/controller/modules/preload_images/preload_images.js"></script>
+      <script src="../../api/controller/modules/scroll/scroll.js"></script>
+      <script src="../../api/controller/modules/capa/capa.js"></script>
+      <script src="../../api/controller/modules/panels/panels.js"></script>
+      <script src="../../api/controller/modules/listSlider/listSlider.js"></script>
+      <script src="../../api/controller/modules/modal/modal.js"></script>
+      <script src="../../api/controller/modules/contentRewriter/contentRewriter.js"></script>
+      <!-- InstanceEndEditable -->
+      <script src="../../api/controller/views/content/content.js"></script>
+      <script src="../../contents/resources/js/ug_diapo12/ug_diapo12.js"></script>
+      <script src="../resources/js/ug_diapo12/recursoMultipleContenedorPuntosPopup.js" ></script>
+      <script src="../resources/js/ug_diapo12/popuppuntos.js" ></script>
+
+      <!-- InstanceBeginEditable name="head" -->
+      <script>
+        $(document).ready(function() {
+          /* EJECUCIÓN DE CÓDIGOS AL CARGARSE EL CONTENIDO */
+// Porcentaje de recursos que deben ser explorados en la página
+vPorcentajeLocalCompletado = 0.8;
+// Inicializa las evaluaciones de esta página
+COREContentController.initEvaluacionesContenido(0 /* Número de evaluaciones */, 0 /* Nota promedio mínima */);
+    // Tiempo mínimo que el usuario debe permanecer en el contenido
+    viewContent.initTimeRequiered(0 /* Minutos */, 10 /* Segundos */);
+    avatar1();
+  });
+</script>
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="capa" type="boolean" value="false" -->
+
+<script type="text/javascript">
+
+
+  function ok(diapositiva){
+    $("#s"+diapositiva).click();
+  }
+
+  function pulse()
+  {
+    $("#menu").addClass("pulse");
+    $("#estrella7").show();
+  }
+
+</script>
+</head>
+
+<body>
+  <div id="wrap">
+   <div id="wrap_content">
+    <!-- HEADER DEL CONTENIDO -->
+    <div class="COREHeader">
+      <img src="../../api/view/images/content/header/logo-UGPP.jpg" alt="Logo UGPP" class="imgEspecial imgLogoUGPP">
+      <div class="CORENavigationMenu">
+        <div class="COREToolsContanier">
+          <!-- CONTROL DEL TIEMPO EN LA PÁGINA -->
+          <div class="CORELocalTimeControl"><span>min</span><br>00<br><span>seg</span><br>00</div>
+          <img id="imgTimeControl" src="../../api/view/images/content/header/imgClock.png" alt="Tiempo" class="imgEspecial">
+          <!-- ACCESO A LAS ACTIVIDADES DEL MÓDULO -->
+          <a href="#" id="enlaceVerActividades" onMouseOut="MM_swapImgRestore()" 
+          onMouseOver="MM_swapImage(
+
+          'imgActivities','','../../api/view/images/content/header/imgActivities_on.png',1) "
+          title="Ver actividades"><img src="../../api/view/images/content/header/imgActivities.png" alt="Actividades" name="imgActivities" class="imgEspecial" id="imgActivities" border="0"></a>
+          <!-- BARRA DE PROGRESO LOCAL -->
+          <div class="CORELocalProgressBarSeparator"></div>
+          <div class="CORELocalProgressBar">
+            <div class="CORELocalProgressBarIndicator"></div>
+            <div class="CORELocalProgressBarPercentage">0%</div>
+          </div>
+        </div>
+        <img src="../../api/view/images/content/header/imgSep1.jpg" width="13" height="46" class="imgEspecial">
+        <!-- ACCESO A LOS TEMAS DEL MÓDULO -->
+        <a id="linkMenuTemas" href="#" title="Ver temas" onClick="return false;" onFocus="this.blur();" class="COREMenu">Temas <img src="../../api/view/images/general/vineta-flecha.png" border="0"></a>
+        <a id="linkMenuNavegacion" href="#" onClick="return false;" onFocus="this.blur();" title="Ver menú de navegación" class="COREMenu">Menú de Navegación <img src="../../api/view/images/general/vineta-flecha.png" border="0">
+        </a>
+        <img src="../../api/view/images/content/header/imgSep2.jpg" width="6" height="46" class="imgEspecial">
+        <!-- CONTROLES DE NAVEGACIÓN -->
+        <div class="CORENavigationMenuControls">
+          <!-- HIPERVÍNCULO PARA NAVEGAR A LA ANTERIOR PÁGINA -->
+          <a id="linkBack" href="#" onMouseOut="" onMouseOver="" title="Ir a la anterior página" class="COREMenuControls" onFocus="this.blur();" onClick="CORELocator.requestNavigation();"><img src="../../api/view/images/general/vineta-flecha2.png" border="0"> Anterior</a>
+          <img id="imgLinkBack" src="../../api/view/images/content/header/imgSep3.png" width="5" height="36" class="imgEspecial COREMenuControlsSep">
+          <!-- HIPERVÍNCULO PARA NAVEGAR A LA SIGUIENTE PÁGINA -->
+          <a id="linkNext" href="#" onMouseOut="" onMouseOver="" title="Ir a la siguiente página" class="COREMenuControls" onFocus="this.blur();" onClick="CORELocator.requestNavigation();">Siguiente <img src="../../api/view/images/general/vineta-flecha.png" border="0"></a>
+          <img id="imgLinkNext" src="../../api/view/images/content/header/imgSep3.png" width="5" height="36" class="imgEspecial COREMenuControlsSep">
+          <!-- POSICIÓN DEL CONTENIDO ACTUAL EN EL MÓDULO -->
+          <span id="txtPaginaActual">00 de 00</span>
+        </div>
+        <img src="../../api/view/images/content/header/imgSep4.png" width="4" height="47" class="imgEspecial">
+      </div>
+      <div class="COREMigaPan">
+        <!-- NOMBRE DEL CURSO/PROGRAMA -->
+        <span id="txtNombreCurso">Programa</span>
+        <!-- NÚMERO DEL MÓDULO -->
+        <img src="../../api/view/images/general/vineta-flecha.png">
+        <span id="txtNumModulo"> Módulo X</span>
+        <!-- NOMBRE DEL MÓDULO -->
+        <span class="txtPepaNombreModulo"> &#8226; </span>
+        <span id="txtNombreModulo">Nombre módulo </span>
+        <!-- NOMBRE DEL TEMA -->
+        <img src="../../api/view/images/general/vineta-flecha.png">
+        <span id="txtNombreTema"> Nombre tema</span>
+      </div>
+    </div>
+    <div class="CORESpaceUnderHeader"></div>
+    <!-- CONTENIDO DE LA PÁGINA -->
+    <div class="COREContenido">
+      <div class="COREInnerContenido">
+        <section class="principal">
+
+        <span id="tituloTema"></span>
+
+          <div class="cajaPopup" id="principal">
+            <div id="pop">
+              <div id="equis"><img src="../resources/img/cerrar.png"></div>
+
+
+
+              <div id="cajaPop1" class="cajasPop">
+                <div id="contenidoTexto">
+                  <article id="">
+                    <h1 class="tituloCajaPopPuntos textoVerde" >Ley 165 de 1938</h1>
+
+                    <p>
+                      <span class="letra">A) </span> 
+                      Clasificó a los empleados públicos de carácter nacional, departamental y municipal.
+                    </p>
+
+                  </article>
+                  <article id="">
+                    <h1 class="tituloCajaPopPuntos textoVerde" >Ley 165 de 1938</h1>
+                    <p>
+                      <span class="letra">B) </span>
+                      Reconoció el derecho a la estabilidad laboral, derecho de ascender dentro de la jerarquía estatal teniendo en cuenta los méritos y competencias del funcionario.
+                    </p>
+                  </article>
+                  <article id="">
+                    <h1 class="tituloCajaPopPuntos textoVerde" >Ley 165 de 1938</h1>
+                    <p>
+                      <span class="letra">C) </span>Reconoció derechos económicos por vacaciones, cesantías, indemnización por accidente de trabajo, seguro de vida, auxilio por enfermedad, pensión de jubilación.
+                    </p>
+                  </article>
+                  <article id="">
+                    <h1 class="tituloCajaPopPuntos textoVerde" >Ley 165 de 1938</h1>
+                    <p>
+                      <span class="letra">D) </span>Dió nacimiento a un Consejo Nacional de Administración y Disciplina que entre sus funciones tenía la de ser jurado de los exámenes practicados, investigar cualquier queja puesta contra un Funcionario Público elaborar el escalafón y estudiar el reglamento de trabajo de las distintas ramas de la Administración Pública.
+                    </p>
+                  </article>
+                </div>
+                <div id="botones">
+                  <div id=""  class="punto "   >
+                    <span></span>
+
+                  </div>
+                  <div id=""  class="punto " >
+                    <span></span>
+
+                  </div>
+                  <div id=""  class="punto " >
+                    <span></span>
+
+                  </div>
+                  <div id=""  class="punto " >
+                    <span></span>
+
+                  </div>
+                </div>
+              </div>
+
+              <div id="derecha_caja">
+                <img src="../resources/img/fp1.png" >
+              </div>
+              <div id="izquierda_caja">
+                <img src="../resources/img/fp2.png">
+              </div>
+            </div>  
+          </div>
+
+
+
+
+
+
+
+          <!--Contenedor multiple contenidos-->
+<!-- bloque 0 -->
+          <div id="contenedorMultiplePuntosPopup1" class="contenedorPrincipalContenedorMultiplePuntosPopup">
+            <div id="contenidoContenedor">
+              <article id="">
+                <div id="articulosPuntos0" class="articulosPuntos">
+                  <article>
+                    <iframe id="framec1p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                  </article>
+                  <article>
+                    <iframe id="framec1p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                  </article>
+                  <article>
+                    <iframe id="framec1p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                  </article>
+                  <article>
+                    <iframe id="framec1p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                  </article>
+
+                  <div id="botonesPuntos0" class="botonesPuntos">
+                    <div id="" class="punto1"></div>
+                    <div id="" class="punto1"></div>
+                    <div id="" class="punto1"></div>
+                    <div id="" class="punto1"></div>
+
+
+                  </div>
+                </div>
+              </article>
+
+
+<!-- bloque 1 -->
+
+              <article id="">
+
+                <div id="articulosPuntos1" class="articulosPuntos">
+                  <article>
+                    <iframe id="framec2p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                  </article>
+
+                  <article>
+                   <iframe id="framec2p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article>
+
+                 <article>
+                   <iframe id="framec2p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article>
+
+                 <article>
+                   <iframe id="framec2p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article>
+
+                 <article>
+                   <iframe id="framec2p4" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article>
+
+                 <article>
+                   <iframe id="framec2p5" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article>
+
+                 <article>
+                   <iframe id="framec2p6" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article>
+
+                 <article>
+                   <iframe id="framec2p7" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article>
+                 <article>
+                   <iframe id="framec2p8" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article>
+                 <article>
+                   <iframe id="framec2p9" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article>
+
+                 <article>
+                   <iframe id="framec2p10" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article> 
+<!-- 
+                 <article>
+                   <iframe id="framec2p11" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article> -->
+<!-- 
+                 <article>
+                   <iframe id="framec2p11" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article> -->
+<!-- 
+                 <article>
+                   <iframe id="framec2p12" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+                 </article> -->
+
+
+                 <div id="botonesPuntos1" class="botonesPuntos">
+
+
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  <div id="" class="punto2"></div>
+                  
+                  
+                </div>
+              </div>
+
+
+
+            </article>
+
+
+<!-- bloque 2 -->           
+            <article id="">
+
+              <div id="articulosPuntos2" class="articulosPuntos">
+                <article>
+                 <iframe id="framec3p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p4" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p5" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p6" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p7" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p8" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p9" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p10" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p11" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p12" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+
+               <article>
+                 <iframe id="framec3p13" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+
+               <article>
+                 <iframe id="framec3p14" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p15" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p16" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p17" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p18" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p19" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+               <article>
+                 <iframe id="framec3p20" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+               </article>
+
+
+               <div id="botonesPuntos2" class="botonesPuntos">
+               
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+                <div id="" class="punto3"></div>
+
+
+              </div>
+            </div>
+          </article>
+
+<!-- bloque 3 -->
+
+          <article id="">
+            <div id="articulosPuntos3" class="articulosPuntos">
+              <article>
+
+               <iframe id="framec4p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p4" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p5" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p6" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p7" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p8" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p9" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p10" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p11" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p12" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p13" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+             <article>
+               <iframe id="framec4p14" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+
+             <article>
+               <iframe id="framec4p15" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+
+             <article>
+               <iframe id="framec4p16" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+             </article>
+
+
+
+
+             <div id="botonesPuntos3" class="botonesPuntos">
+
+
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+              <div id="" class="punto4"></div>
+
+              
+
+            </div>
+          </div>
+        </article>
+<!-- bloque 4-->
+        <article id="">
+          <div id="articulosPuntos4" class="articulosPuntos">
+            <article>
+             <iframe id="framec5p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article>
+           <article>
+             <iframe id="framec5p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article>      
+           <article>
+             <iframe id="framec5p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article> 
+           <article>
+             <iframe id="framec5p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article> 
+           <article>
+             <iframe id="framec5p4" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article> 
+           <article>
+             <iframe id="framec5p5" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article> 
+           <article>
+             <iframe id="framec5p6" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article> 
+           <article>
+             <iframe id="framec5p7" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article> 
+           <article>
+             <iframe id="framec5p8" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article> 
+           <article>
+             <iframe id="framec5p9" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article> 
+           <article>
+             <iframe id="framec5p10" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article> 
+           <article>
+             <iframe id="framec5p11" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+           </article>
+
+
+           <div id="botonesPuntos4" class="botonesPuntos">
+            <div id="" class="punto5"></div>
+            <div id="" class="punto5"></div>
+            <div id="" class="punto5"></div>
+            <div id="" class="punto5"></div>
+            <div id="" class="punto5"></div>
+            <div id="" class="punto5"></div>
+            <div id="" class="punto5"></div>
+            <div id="" class="punto5"></div>
+            <div id="" class="punto5"></div>
+
+          </div>
+        </div>
+      </article>
+<!-- bloque 5 -->
+      <article id="">
+
+        <div id="articulosPuntos5" class="articulosPuntos">
+          <article>
+            <iframe id="framec6p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+          </article>
+          <article>
+           <iframe id="framec6p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+         </article>
+         <article>
+           <iframe id="framec6p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+         </article>
+         <article>
+           <iframe id="framec6p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+         </article>
+         <article>
+           <iframe id="framec6p4" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+         </article>
+         <article>
+           <iframe id="framec6p5" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+         </article>
+         <article>
+           <iframe id="framec6p6" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+         </article>
+
+         <div id="botonesPuntos5" class="botonesPuntos">
+
+          <div id="" class="punto6"></div>
+          <div id="" class="punto6"></div>
+          <div id="" class="punto6"></div>
+          <div id="" class="punto6"></div>
+          <div id="" class="punto6"></div>
+          <div id="" class="punto6"></div>
+          <div id="" class="punto6"></div>
+
+
+        </div>
+      </div>
+    </article>
+
+    <article id="">
+      <div id="articulosPuntos6" class="articulosPuntos">
+        <article>
+          <iframe id="framec7p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+        </article>
+        <article>
+         <iframe id="framec7p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+       </article>
+       <article>
+         <iframe id="framec7p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+       </article>
+       <article>
+         <iframe id="framec7p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+       </article>
+       <article>
+         <iframe id="framec7p4" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+       </article>
+       <article>
+         <iframe id="framec7p5" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+       </article>
+       <article>
+         <iframe id="framec7p6" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+       </article>
+       <article>
+         <iframe id="framec7p7" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+       </article>
+
+  <!--       <article>
+         <iframe id="framec7p8" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+       </article> -->
+<!--        <article>
+         <iframe id="framec7p9" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+       </article> -->
+
+       <div id="botonesPuntos6" class="botonesPuntos">
+        <!-- <div id="" class="punto7"></div> -->
+        <div id="" class="punto7"></div>
+        <div id="" class="punto7"></div>
+        <div id="" class="punto7"></div>
+        <div id="" class="punto7"></div>
+        <div id="" class="punto7"></div>
+        <div id="" class="punto7"></div>
+        <div id="" class="punto7"></div>
+        <div id="" class="punto7"></div>
+        <!-- <div id="" class="punto7"></div> -->
+        <!-- <div id="" class="punto7"></div> -->
+
+
+      </div>
+    </div>
+  </article>
+
+  <article id="">
+    <div id="articulosPuntos7" class="articulosPuntos">
+      <article>
+        <iframe id="framec8p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+      </article>
+      <article>
+       <iframe id="framec8p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <article>
+       <iframe id="framec8p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <article>
+       <iframe id="framec8p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <article>
+       <iframe id="framec8p4" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <article>
+       <iframe id="framec8p5" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <article>
+       <iframe id="framec8p6" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <article>
+       <iframe id="framec8p7" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+      
+      <article>
+       <iframe id="framec8p8" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <article>
+       <iframe id="framec8p9" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <article>
+       <iframe id="framec8p10" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <article>
+       <iframe id="framec8p11" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+
+     <article>
+       <iframe id="framec8p12" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+          <article>
+       <iframe id="framec8p13" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+          <article>
+       <iframe id="framec8p14" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+          <article>
+       <iframe id="framec8p15" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+          <article>
+       <iframe id="framec8p16" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+     </article>
+     <div id="botonesPuntos7" class="botonesPuntos">
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+      <div id="" class="punto8"></div>
+    </div>
+  </div>
+</article>
+
+
+<article id="">
+  <div id="articulosPuntos8" class="articulosPuntos">
+    <article>
+      <iframe id="framec9p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+    </article>
+    <article>
+     <iframe id="framec9p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article>
+   <article>
+     <iframe id="framec9p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article>
+<!--    <article>
+     <iframe id="framec9p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article>
+
+   <article>
+     <iframe id="framec9p4" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article> -->
+<!--    <article>
+     <iframe id="framec9p5" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article> -->
+
+   <div id="botonesPuntos8" class="botonesPuntos">
+    <div id="" class="punto9"></div>
+    <div id="" class="punto9"></div>
+    <div id="" class="punto9"></div>
+<!--     <div id="" class="punto9"></div> -->
+
+<!--     <div id="" class="punto9"></div>
+    <div id="" class="punto9"></div> -->
+
+
+  </div>
+</div>
+</article>
+
+<article id="">
+  <div id="articulosPuntos9" class="articulosPuntos">
+    <article>
+      <iframe id="framec10p0" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+      
+    </article>
+    <article>
+     <iframe id="framec10p1" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article>
+    <article>
+     <iframe id="framec10p2" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article>
+   <article>
+     <iframe id="framec10p3" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article>
+<!--    <article>
+     <iframe id="framec10p4" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article>
+    <article>
+     <iframe id="framec10p5" class="frame" src="" frameborder="0" width="950" height="500"></iframe>
+   </article> -->
+
+   <div id="botonesPuntos9" class="botonesPuntos">
+    <div id="" class="punto10"></div>
+    <div id="" class="punto10"></div>
+    <div id="" class="punto10"></div>
+    <div id="" class="punto10"></div>
+<!--     <div id="" class="punto10"></div>
+    <div id="" class="punto10"></div> -->
+    
+
+
+  </div>
+</div>
+</article>
+
+
+
+
+<div id="izquierda">
+  <img src="../resources/img/f1.png" >
+</div>
+<div id="derecha">
+  <img src="../resources/img/f2.png">
+</div>
+
+</div>
+
+<div id="menu">
+  <img src="../resources/img/diapo12/iconoexpandir.png" height="35" width="35" alt="">
+</div>
+
+<div id="botonesContenedorMultiplePuntosPopup">
+    <p class="subtitulo">Áreas de conocimiento</p>
+
+  <img id="ciclo1" src="../resources/img/diapo12/ciclo1.png" height="382" width="382" alt="">
+  <div id="bc0"  class="botonContenedor "   >
+    <img src="../resources/img/diapo12/p1.png" height="20" width="20"><span>Gestión de Integración</span>
+  </div>
+  <div id="bc1"  class="botonContenedor " >
+    <img src="../resources/img/diapo12/p2.png"><span><span id="tool1" class="capa" segSCORM="si" onMouseOver="MODCapa.muestra('capa1',false);" onMouseOut="MODCapa.cierraLayer(event);">Gestión <br> del alcance</span>
+
+  </span>
+</div>
+
+<div id="bc2"  class="botonContenedor " >
+  <img src="../resources/img/diapo12/p3.png"><span>
+  
+
+  <span id="tool2" class="capa" segSCORM="si" onMouseOver="MODCapa.muestra('capa2',false);" onMouseOut="MODCapa.cierraLayer(event);"> Gestión <br>del tiempo</span> </span>
+  
+</div>
+<div id="bc3"  class="botonContenedor " >
+  <img src="../resources/img/diapo12/p4.png"><span>
+  
+
+      <span id="tool3" class="capa" segSCORM="si" onMouseOver="MODCapa.muestra('capa3',false);" onMouseOut="MODCapa.cierraLayer(event);">Gestión de <br> los costos del proyecto</span></span>
+  
+ 
+</div>
+<div id="bc4"  class="botonContenedor " >
+  <img src="../resources/img/diapo12/p5.png"><span>Gestión <br> de la calidad</span>
+</div>
+<div id="bc5"  class="botonContenedor " >
+  <img src="../resources/img/diapo12/p6.png"><span >Gestión <br> de RRHH</span>
+</div>
+<div id="bc6"  class="botonContenedor "   >
+  <span>Gestión de <br> las comunicaciones</span><img src="../resources/img/diapo12/p7.png">
+</div>
+<div id="bc7"  class="botonContenedor " >
+  <span> 
+      <span id="tool4"  class="capa" segSCORM="si" onMouseOver="MODCapa.muestra('capa4',false);" onMouseOut="MODCapa.cierraLayer(event);">Gestión y <br> atención de <br> riesgos</span></span><img src="../resources/img/diapo12/p8.png">
+</div>
+
+<div id="bc8"  class="botonContenedor " >
+  <span>Gestión <br> de adquisiciones</span><img src="../resources/img/diapo12/p9.png">
+</div>
+<div id="bc9"  class="botonContenedor " >
+  <span>Gestión de <br> los interesados</span><img src="../resources/img/diapo12/p10.png">
+</div>
+
+
+
+</div>
+</div>
+
+
+
+<!-- <span id="s13" segSCORM="si"></span>
+<span id="s14" segSCORM="si"></span>
+<span id="s15" segSCORM="si"></span>
+<span id="s16" segSCORM="si"></span>
+<span id="s17" segSCORM="si"></span>
+<span id="s18" segSCORM="si"></span>
+<span id="s19" segSCORM="si"></span>
+<span id="s20" segSCORM="si"></span>
+<span id="s21" segSCORM="si"></span>
+<span id="s22" segSCORM="si"></span>
+<span id="s23" segSCORM="si"></span>
+<span id="s24" segSCORM="si"></span>
+<span id="s25" segSCORM="si"></span>
+<span id="s26" segSCORM="si"></span>
+<span id="s27" segSCORM="si"></span>
+<span id="s28" segSCORM="si"></span>
+<span id="s29" segSCORM="si"></span>
+<span id="s30" segSCORM="si"></span>
+<span id="s31" segSCORM="si"></span>
+<span id="s32" segSCORM="si"></span>
+<span id="s33" segSCORM="si"></span>
+<span id="s34" segSCORM="si"></span>
+<span id="s35" segSCORM="si"></span>
+<span id="s36" segSCORM="si"></span>
+<span id="s37" segSCORM="si"></span>
+<span id="s38" segSCORM="si"></span>
+<span id="s39" segSCORM="si"></span>
+<span id="s40" segSCORM="si"></span>
+<span id="s41" segSCORM="si"></span>
+<span id="s42" segSCORM="si"></span>
+<span id="s43" segSCORM="si"></span>
+<span id="s44" segSCORM="si"></span>
+<span id="s45" segSCORM="si"></span>
+<span id="s46" segSCORM="si"></span>
+<span id="s47" segSCORM="si"></span>
+<span id="s48" segSCORM="si"></span>
+<span id="s49" segSCORM="si"></span>
+<span id="s50" segSCORM="si"></span>
+<span id="s51" segSCORM="si"></span>
+<span id="s52" segSCORM="si"></span>
+<span id="s53" segSCORM="si"></span>
+<span id="s54" segSCORM="si"></span>
+<span id="s55" segSCORM="si"></span>
+<span id="s56" segSCORM="si"></span>
+<span id="s57" segSCORM="si"></span>
+<span id="s58" segSCORM="si"></span>
+<span id="s59" segSCORM="si"></span>
+<span id="s60" segSCORM="si"></span>
+<span id="s61" segSCORM="si"></span>
+<span id="s62" segSCORM="si"></span>
+<span id="s63" segSCORM="si"></span>
+<span id="s64" segSCORM="si"></span>
+<span id="s65" segSCORM="si"></span>
+<span id="s66" segSCORM="si"></span>
+<span id="s67" segSCORM="si"></span>
+<span id="s68" segSCORM="si"></span>
+<span id="s69" segSCORM="si"></span>
+<span id="s70" segSCORM="si"></span>
+<span id="s71" segSCORM="si"></span>
+<span id="s72" segSCORM="si"></span>
+<span id="s73" segSCORM="si"></span>
+<span id="s74" segSCORM="si"></span>
+<span id="s75" segSCORM="si"></span>
+<span id="s76" segSCORM="si"></span>
+<span id="s77" segSCORM="si"></span>
+<span id="s78" segSCORM="si"></span>
+<span id="s79" segSCORM="si"></span>
+<span id="s80" segSCORM="si"></span>
+<span id="s81" segSCORM="si"></span>
+<span id="s82" segSCORM="si"></span>
+<span id="s83" segSCORM="si"></span>
+<span id="s84" segSCORM="si"></span>
+<span id="s85" segSCORM="si"></span>
+<span id="s86" segSCORM="si"></span>
+<span id="s87" segSCORM="si"></span>
+<span id="s88" segSCORM="si"></span>
+<span id="s89" segSCORM="si"></span>
+<span id="s90" segSCORM="si"></span>
+<span id="s91" segSCORM="si"></span>
+<span id="s92" segSCORM="si"></span>
+<span id="s93" segSCORM="si"></span>
+<span id="s94" segSCORM="si"></span>
+<span id="s95" segSCORM="si"></span>
+<span id="s96" segSCORM="si"></span>
+<span id="s97" segSCORM="si"></span>
+<span id="s98" segSCORM="si"></span>
+<span id="s99" segSCORM="si"></span>
+<span id="s100" segSCORM="si"></span>
+<span id="s101" segSCORM="si"></span>
+<span id="s102" segSCORM="si"></span>
+<span id="s103" segSCORM="si"></span>
+<span id="s104" segSCORM="si"></span>
+<span id="s105" segSCORM="si"></span>
+<span id="s105" segSCORM="si"></span>
+<span id="s106" segSCORM="si"></span>
+<span id="s107" segSCORM="si"></span> -->
+
+
+
+
+<div id="estrella7" class="ug_star  " style="display: block;">
+    <strong>Dar clic en el botón gris para continuar en el ciclo</strong>
+  </div>
+
+<!-- TemplateEndEditable -->
+</section>
+</div>
+</div>
+<!-- FOOTER DE LA PÁGINA -->
+<div class="COREFooter"></div>
+</div>
+</div>
+<!-- HIPERVÍNCULO PARA REGRESAR AL INICIO DE LA PÁGINA -->
+<a href="#" class="back-to-top">
+  <img src="../../api/view/images/general/subir.png" alt="Subir" border="0"/>
+</a>
+<!-- MENÚ DE ACTIVIDADES DESPLEGABLE DEL HEADER -->
+<div class="mnMenuActividades mnHide">
+  <div class="tituloMenuActividades" title="Cerrar menú" onClick="viewContent.showMenuActividades(false,null); return false;">Menú de actividades <span>x</span></div>
+  <div class="contentMenuActividades">
+    <div class="innerMenuActividades">
+      <ul>
+        <!-- InstanceBeginEditable name="editMenuActividades" -->
+        <li><a href="#" title="Actividad 1" onFocus="this.blur();" class="modalActividad">Ver la actividad 1</a></li>
+        <li><a href="#" title="Actividad 2" onFocus="this.blur();" class="modalActividad">Ver la actividad 2</a></li>
+        <li><a href="#" title="Actividad 3" onFocus="this.blur();" class="modalActividad">Ver la actividad 3</a></li>
+        <li><a href="#" title="Actividad 4" onFocus="this.blur();" class="modalActividad">Ver la actividad 4</a></li>
+        <li><a href="#" title="Actividad 5" onFocus="this.blur();" class="modalActividad">Ver la actividad 5</a></li>
+        <li><a href="#" title="Actividad 6" onFocus="this.blur();" class="modalActividad">Ver la actividad 6</a></li>
+        <li><a href="#" title="Actividad 7" onFocus="this.blur();" class="modalActividad">Ver la actividad 7</a></li>
+        <li><a href="#" title="Actividad 8" onFocus="this.blur();" class="modalActividad">Ver la actividad 8</a></li>
+        <!-- InstanceEndEditable -->
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="mnMenuActividadesCapa" onMouseOver="viewContent.showMenuActividades(false,null);"></div>
+<!-- MENÚ DE NAVEGACIÓN DESPLEGABLE DEL HEADER -->
+<div class="mnMenuNavegacion mnHide">
+  <div class="tituloMenuNavegacion" title="Cerrar menú" onClick="viewContent.showMenuNavegacion(false,null); return false;">Menú de navegación <span>x</span></div>
+  <div class="contentMenuNavegacion">
+    <div class="innerMenuNavegacion">
+      <ul>
+       <!-- InstanceBeginEditable name="editMenuNavegacion" -->
+       <li><a href="../tools/bibliografia/index.html" title="Bibliografía" onFocus="this.blur();" class="modalAyuda">Bibliografía</a></li>
+         <li><a href="../tools/glosario/glosario.pdf" target="_blank" title="Glosario" onFocus="this.blur();">Glosario</a></li>
+         <!-- <li><a href="../tools/faq/index.html" title="Preguntas frecuentes" onFocus="this.blur();" class="modalAyuda">Preguntas frecuentes</a></li> -->
+         <!-- <li><a href="../tools/normatividad/index.html" title="Normatividad" onFocus="this.blur();" class="modalAyuda">Normatividad</a></li> -->
+         <!-- <li><a href="../tools/lecturas/index.html" title="Lecturas" onFocus="this.blur();" class="modalAyuda">Lecturas</a></li> -->
+         <!-- <li><a href="../tools/medios/index.html" title="Medios" onFocus="this.blur();" class="modalAyuda">Medios</a></li> -->
+         <li><a href="../tools/guia/index.html" title="Guía de navegación" onFocus="this.blur();" class="modalAyuda">Guía de navegación</a></li>
+       <!-- InstanceEndEditable -->
+     </ul>
+   </div>
+ </div>
+</div>
+<div class="mnMenuNavegacionCapa" onMouseOver="viewContent.showMenuNavegacion(false,null);"></div>
+<!-- MENÚ DE TEMAS DESPLEGABLE DEL HEADER -->
+<div class="mnMenuTemas mnHide">
+  <div class="tituloMenuTemas" title="Cerrar menú" onClick="viewContent.showMenuTemas(false,null); return false;">Temas <span>x</span></div>
+  <div class="contentMenuTemas">
+    <div class="innerMenuTemas">
+      <ul>
+        <li class="liTituloModulo"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="mnMenuTemasCapa" onMouseOver="viewContent.showMenuTemas(false,null);"></div>
+
+
+
+
+
+<div id="capa1" class="mainCapa" style="width:294px;">
+  <div class="titCapa"><span>Planificar la gestión del alcance</span><a href="#" onClick="MODCapa.cierraLayer2(); return false;" title="Cerrar">[x]</a></div>
+  <div class="contCapa">
+    <p>
+      <ul>
+        <li>Planificar el control gestión del alcance</li>
+        <li> Definir el alcance</li>
+        <li>Crear la Estructura Detallada del Trabajo</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+
+<div id="capa2" class="mainCapa" style="width:294px;">
+  <div class="titCapa"><span>Planificar la gestión del tiempo</span><a href="#" onClick="MODCapa.cierraLayer2(); return false;" title="Cerrar">[x]</a></div>
+  <div class="contCapa">
+    <p>
+      <ul>
+        <li>Definir las actividades </li>
+        <li>Secuenciar las actividades </li>
+        <li>Estimar los recursos de las actividades</li>
+        <li>Estimar la duración de las actividades</li>
+        <li>Desarrollar el  Cronograma</li>
+      </ul>
+
+    </p>
+  </div>
+</div>
+
+
+    <div id="capa3" class="mainCapa" style="width:294px;">
+        <div class="titCapa"><span>Gestión de los costos del proyecto</span><a href="#" onClick="MODCapa.cierraLayer2(); return false;" title="Cerrar">[x]</a></div>
+        <div class="contCapa">
+          <p>
+            <ul>
+              <li>Planificar la gestión de los costos.</li>
+              <li>Determinar el  presupuesto</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+  
+      <div id="capa4" class="mainCapa" style="width:294px;">
+        <div class="titCapa"><span>Gestión y atención de riesgos</span><a href="#" onClick="MODCapa.cierraLayer2(); return false;" title="Cerrar">[x]</a></div>
+        <div class="contCapa">
+          <p>
+          <ul>
+            <li>Planificar la Gestión de los Riesgos</li>
+            <li>Identificar los Riesgos</li>
+            <li>Realizar el Análisis Cualitativo de Riesgos</li>
+            <li>Realizar el Análisis Cuantitativo de Riesgos</li>
+            <li>Planificar la Respuesta a los Riesgos </li>
+          </ul>
+          
+          </p>
+        </div>
+      </div>
+
+
+
+
+</body>
+</html>

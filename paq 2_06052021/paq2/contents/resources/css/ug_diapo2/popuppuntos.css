@@ -1,0 +1,201 @@
+/*Estilos de popups y cajas en general*/
+
+.cursiva
+{
+  font-style: italic;
+}
+
+.derecha
+{
+  float: right;
+}
+
+.cursivaArticulo
+{
+    float: right;
+    color: rgba(0,0,0,1);
+    font-style: italic;
+}
+
+#pop
+  {
+    background: rgba(255,255,255,1);
+    display: none;
+    font-family: 'ubuntu_regular';
+    height: 300px;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -150px;
+    position: absolute;
+    top: 50%;
+    width: 700px;
+  }
+  #equis
+  {
+
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -18px;
+    right: 8px;
+    cursor: pointer;
+  }
+
+  .cajaPopup
+  {
+    display: none;
+    position: fixed;
+    background: rgba(25, 22, 22,0.7);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+  }
+
+  #contenidoTexto
+  {
+
+    width: 100%;
+  }
+
+  #contenidoTexto, #botones
+  {
+    display: block;
+  }
+
+  #contenidoTexto>article
+  {
+    background: rgba(255,255,255,1);
+    text-align: justify;
+    padding: 20px 50px;
+    position: absolute;
+  }
+
+    .cajaPopPunto
+  {
+    cursor: pointer;
+    color: rgba(255,255,255,1);
+  }
+
+/*Estilos para el snnipet boton*/
+.punto
+{
+  border-radius: 50% 50%;
+  color: rgba(255,255,255,1);
+  font-size: 16px;
+  font-family: 'ubuntu_regular';
+  position: relative;
+  background:rgba(80, 79, 83,1);
+  cursor: pointer;
+  height: 15px;
+  text-align: center;
+  width: 15px;
+}
+
+.punto>span
+{
+  position: relative;
+  top: 3px;
+  left: -6px;
+}
+
+
+  #botones
+  {
+    position: absolute;
+    bottom: 10px;
+    text-align: right;
+    right: 50px;
+    width: 100%;
+
+  }
+  #botones>div
+  {
+    height: 15px;
+    cursor: pointer;
+    width: 15px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #izquierda_caja
+  {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
+  #derecha_caja
+  {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+    .pActual
+  {
+    background: rgb(73, 96, 16) !important;
+  }
+  .pRevisar
+  {
+    background: rgb(125, 190, 2);
+  }
+
+    .verde
+  {
+    background: rgba(145, 191, 32,1);
+  }
+
+  .naranja
+  {
+    background: rgba(240, 92, 34, 1);
+  }
+
+  .cyan
+  {
+    background: rgba(96, 169, 128,1);
+  }
+
+  .rojo
+  {
+    background: rgba(193, 53, 52,1);
+  }
+
+  /*Color de textos*/
+
+  .tituloCajaPopPuntos
+  {
+    font-weight: bold;
+    margin: 20px 20px 10px 40px;  
+  }
+
+  .textoVerde
+  {
+   color: rgba(145, 191, 32,1);
+  }
+
+  .textoNaranja
+  {
+    color: rgba(240, 92, 34, 1);
+  }
+
+  .textoCyan
+  {
+     color: rgba(96, 169, 128,1);
+  }
+
+  .textoRojo
+  {
+     color: rgba(193, 53, 52,1);
+  }
+
+  .cajasPop
+  {
+    display: none;
+  }
+
+  .pActivo
+  {
+    display: block;
+  }

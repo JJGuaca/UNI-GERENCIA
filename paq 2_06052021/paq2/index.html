@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/ESTRATCO_SCORM12_INICIO_v1.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!------------------------------------------------------
+  Propietario:  Estrategia y Conocimiento SAS ©2015
+  Producto:     Plantilla integración SCORM 1.2
+  Archivo base: ESTRATCO_SCORM12_INICIO_v1.dwt v.1.0.0
+  Descripción:  Plantilla para integración de cursos
+                con soporte a ejecución en internet,
+                local, CD y desde LMS SCORM 1.2.
+  Navegación:   Líneal.
+  Derechos:     Derechos totalmente reservados para su
+                distribución, copia o modificación,
+                salvo expresa autorización de:
+                Estrategia y Conocimiento SAS.
+-------------------------------------------------------->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Módulo 2</title>
+<link href="../favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<!-- InstanceEndEditable -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- CARGA DE ARCHIVOS DE ESTILOS DEL CURSO -->
+<link href="api/view/css/core/fonts/ubuntu/ubuntu.css" rel="stylesheet" type="text/css">
+<link href="api/view/css/core/general.css" rel="stylesheet" type="text/css">
+<link href="api/view/css/views/index/index.css" rel="stylesheet" type="text/css">
+<!-- CARGA DE COMPORTAMIENTOS DEL CURSO -->
+<script src="api/controller/core/jquery/jquery-1.10.2.min.js"></script>
+<script src="api/controller/core/json/json2.js"></script>
+<script src="api/controller/core/debuger/debuger.js"></script>
+<script src="api/controller/config/config.js"></script>
+<script src="api/controller/core/browserFixes/browserFixes.js"></script>
+<script src="api/controller/core/smartNav/smartNav.js"></script>
+<script src="api/controller/core/localStorage/localStorage.js"></script>
+<script src="api/controller/modules/data_store/amplify.store.min.js"></script>
+<script src="api/controller/core/locator/locator.js"></script>
+<script src="api/controller/core/scorm/APIWrapper12.js"></script>
+<script src="api/controller/core/scorm/SCOFunctions12.js"></script>
+<script src="api/controller/views/index/index.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+  <div id="wrap">
+    <div id="wrap_content">
+      <div class="mainCarga ">
+        <p>Un momento por favor, el contenido está cargando...<br>
+<img src="api/view/images/index/ajax-loader.gif" width="35" height="35"></p></div>
+      <div class="mainProblema ">
+        <p><img src="api/view/images/index/Problem.png" vspace="5" hspace="13" width="48" height="48" align="left">La configuración del navegador de internet ha bloqueado la apertura de la ventana emergente con el contenido del curso.<br>
+
+        <br>Por favor de click a continuación:</p><br>
+          <div class="innerMainProblem">
+            <a id="carE1" href="#" title="Cargar contenido en ventana aparte" onClick="viewIndex.loadSmartNavInit(); return false;" onFocus="this.blur();" style="    margin: -8px 77px;"><img src="api/view/images/index/Resize.png" width="35" border="0">
+            <br>En ventana aparte</a>
+           
+<!--             <a href="#" title="Cargar contenido en esta ventana" onClick="viewIndex.loadContentInside(); return false;" onFocus="this.blur();"><img src="api/view/images/index/Go.png" width="35" border="0"><br>En esta ventana</a> -->
+
+          </div>
+      </div>
+      <div class="mainPregunta ">
+        <p><img src="api/view/images/index/Question.png" vspace="5" hspace="13" width="48" height="48" align="left">Antes de comenzar por favor indícanos en dónde prefieres que sea cargado el contenido del curso:</p><br>
+          <div class="innerMainPregunta ">
+            <a href="#" title="Cargar contenido en ventana aparte" onClick="viewIndex.loadSmartNavInit(); return false;" onFocus="this.blur();" ><img src="api/view/images/index/Resize.png" width="35" border="0"><br>En ventana aparte</a>
+            <a href="#" title="Cargar contenido en esta ventana" onClick="viewIndex.loadContentInside(); return false;" onFocus="this.blur();"><img src="api/view/images/index/Go.png" width="35" border="0"><br>En esta ventana</a>
+          </div>
+      </div>
+      <div class="mainCargadoPopUp">
+        <p><img src="api/view/images/index/Apply.png" vspace="5" hspace="13" width="48" height="48" align="left">El contenido del curso ha sido cargado en ventana emergente. En caso de algún inconveniente en la carga no detectado o en caso que desees cerrar la ventana, haz uso de las siguientes opciones:</p>
+          <div class="innerMainCargadoPopUp ">
+            <a href="#" title="Cerrar el contenido cargado en ventana aparte" onClick="CORESmartNav.closePopUpContent(); return false;" onFocus="this.blur();"><img src="api/view/images/index/Close.png" width="35" border="0"><br>Cerrar la ventana cargada</a>
+            
+            <a href="#" title="Abrir contenido en ventana aparte" onClick="viewIndex.loadSmartNavInit(); return false;" onFocus="this.blur();"><img src="api/view/images/index/Resize.png" width="35" border="0"><br>Abrir contenido en ventana aparte</a>
+
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- InstanceEnd --></html>

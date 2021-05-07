@@ -1,0 +1,31 @@
+
+#santiago2{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:0px;
+  top:27px;
+}
+
+#nubeIzq5{
+  line-height:20px;
+  height:150px;
+  width:750px;
+  font-size:16px;
+  margin:-10px 0px 0px;
+  position:absolute;
+  left:180px;
+  top:40px;
+}
+
+#img1
+{
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  opacity: 0;
+}
+

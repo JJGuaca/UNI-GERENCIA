@@ -1,0 +1,475 @@
+@import url("../fonts/ubuntu/ubuntu.css");
+
+section
+{
+  position: relative;
+}
+
+figure
+{
+  margin: 0;
+  padding: 0;
+}
+
+object
+{
+  margin-top: 16px;
+  margin-left: 5px;
+  z-index: 1;
+  position: absolute;
+}
+
+.principal
+{
+  height: 500px;
+}
+/*Estilos para el snnipet boton*/
+.btn
+{
+  color: rgba(255,255,255,1);
+  font-size: 12px;
+  font-family: 'ubuntu_bold',Segoe,"Segoe UI","DejaVu Sans","Trebuchet MS",Verdana,sans-serif;
+  position: relative;
+  background:rgba(80, 79, 83,1);
+  cursor: pointer;
+  height: 28px;
+  text-align: center;
+  width: 150px;
+}
+.btn>span
+{
+  position: relative;
+  top: 3px;
+  left: -6px;
+}
+
+.btn_flecha
+{
+  background: url(../../../images/general/btn_flecha.png) no-repeat;
+  background-color: rgba(255,255,255,0.5); 
+  background-position: center;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  width: 10px;
+  height: 100%;
+}
+.btn>span>p {
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.cursiva
+{
+  font-style: italic;
+}
+
+.cursivaArticulo
+{
+  color: rgba(0,0,0,1);
+  font-style: italic;
+  float: right;
+  margin-top: 15px;
+}
+
+/*Quitar bordes del contenedor principal*/
+div.COREInnerContenido 
+{
+  padding: 10px 0px !important;
+}
+
+/*Colores para botones*/
+.blanco{
+  background: rgba(250, 250, 250, 1) !important;
+}
+.negro{
+  background: rgba(0, 0, 0, 1) !important;
+}
+.gris
+{
+  background: rgba(80, 79, 83, 1) !important;
+}
+
+.verde
+{
+  background: rgba(145, 191, 32,1) !important;
+}
+.verdeOscuro
+{
+  background: rgb(73, 96, 16) !important;
+}
+
+.azulClaro
+{
+  background: rgba(82, 173, 208, 1) !important;
+}
+
+.morado
+{
+  background: rgba(143, 56, 151,1) !important;
+}
+.moradoOscuro
+{
+  background: rgb(50, 14, 41) !important;
+}
+.azulOscuro
+{
+  background: rgba(6, 38, 86,1) !important;
+}
+
+.turquesa{
+  background-color: rgba(87, 193, 189,1) !important;
+}
+
+.aguamarinaOscuro
+{
+  background: rgb(20, 43, 52) !important;
+}
+.aguamarina
+{
+  background: rgba(39, 106, 132, 1) !important;
+}
+
+.cafeClaro
+{
+  background: rgba(191, 100, 44,1) !important;
+}
+
+.cafeOscuro
+{
+  background: rgba(128, 67, 30,1) !important;
+}
+
+.grisClaro
+{
+  background: rgb(166, 166, 166) !important;
+}
+
+.azulMarino
+{
+  background: rgba(62, 130, 156,1) !important;
+}
+
+.verdeOliva
+{
+  background: rgba(109, 143, 24,1) !important;
+}
+.violeta
+{
+  background: rgba(174, 60, 158,1) !important;
+}
+.uva{
+  background: rgb(101, 29, 81) !important;
+}
+.naranja{
+  background:rgb(255, 133, 59) !important;
+}
+.fresa{
+  background:rgb(246, 0, 41) !important;
+}
+.frambuesa{
+  background:rgb(128, 0, 19) !important;
+}
+
+.salmon{
+  background-color: rgba(226, 94, 95,1) !important;
+}
+
+.uvaNegra{
+  background:rgb(64, 0, 9) !important;
+}
+/**/
+.amarillo{
+  background: rgb(255, 199, 23) !important;
+}
+.naranjaOscuro{
+  background: rgb(255, 164, 0) !important;
+}
+
+
+.naranja1 {
+  background-color: rgb(255, 133, 50) !important;
+}
+
+.azulClaro2  {
+  background-color: rgb(0, 176, 212) !important;
+
+}
+
+.verde3 {
+  background-color: rgb(122, 191, 0) !important;
+
+}
+
+.fucsia
+{
+  background: rgb(200, 57, 161) !important;
+}
+
+
+/*Colores para textos*/
+
+.uvaTexto{
+  color: rgb(101, 29, 81) !important;
+}
+
+.blancoTexto{
+  color: rgba(250, 250, 250, 1) !important;
+}
+.negroTexto{
+  color: rgba(0, 0, 0, 1) !important;
+}
+
+.verdeOlivaTexto
+{
+  color: rgb(109, 143, 24) !important;
+}
+.moradoOscuroTexto
+{
+  color: rgb(50, 14, 41) !important;
+}
+
+.azulMarinoTexto
+{
+  color: rgba(62, 130, 156,1) !important;
+}
+
+.turquesaTexto{
+  color: rgba(87, 193, 189, 1) !important;
+}
+
+.grisTexto
+{
+  color: rgba(80, 79, 83, 1) !important;
+}
+
+.verdeTexto
+{
+  color: rgba(145, 191, 32,1) !important;
+}
+
+.azulClaroTexto
+{
+  color: rgba(82, 173, 208, 1) !important;
+}
+
+.moradoTexto
+{
+  color: rgba(143, 56, 151,1) !important;
+}
+
+.azulOscuroTexto
+{
+  color: rgba(6, 38, 86,1) !important;
+}
+
+.aguamarinaOscuroTexto
+{
+  color: rgb(20, 43, 52) !important;
+}
+.aguamarinaTexto
+{
+  color: rgba(39, 106, 132, 1) !important;
+}
+
+.violetaTexto
+{
+ color: rgba(174, 60, 158,1) !important;
+}
+
+.naranjaTexto{
+  color:rgb(255, 133, 59) !important;
+}
+.fresaTexto{
+  color:rgb(246, 0, 41) !important;
+}
+.frambuesaTexto{
+  color:rgb(128, 0, 19) !important;
+}
+.cafeClaroTexto
+{
+  color: rgba(191, 100, 44,1) !important;
+}
+
+.cafeOscuroTexto
+{
+  color: rgba(128, 67, 30,1) !important;
+}
+
+
+.grisClaroTexto
+{
+  color: rgb(166, 166, 166) !important;
+}
+.uvaNegraTexto{
+  color:rgb(64, 0, 9) !important;
+}
+.verdeOscuroTexto
+{
+  color: rgb(73, 96, 16) !important;
+}
+
+
+.fucsiaTexto
+{
+  color: rgb(200, 57, 161) !important;
+}
+
+.salmonTexto{
+  color: rgba(226, 94, 95,1) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos para el snnipet de subtitulos*/
+.cajaSubtitulo
+{
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.cajaSubtitulo>.linea1 , 
+.cajaSubtitulo>.linea2
+{
+  color: rgba(91,91,95,1);
+  font-size: 16px;
+}
+
+.cajaSubtitulo>.linea2
+{
+  font-weight: bold;
+}
+
+
+.resaltadoAzul
+{
+  background: rgb(169, 195, 206);
+  color: rgba(0,0,0,1);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.resaltadoAmarillo
+{
+  background: rgb(226, 227, 164);
+  color: rgba(0,0,0,1);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.recurso>img
+{
+  border: none ;
+}
+.Color_blanco{
+  color:#fff !important;
+}
+.velo{
+ background: rgba(230,230,230,0.6);
+ cursor: not-allowed;
+}
+.cursiva_ug{
+  float: right;
+  text-align: right;
+  color: #000 !important;
+  font-weight: bold;
+  font-style: italic;
+}
+h2 strong {
+  font-size: 30px;
+  position: absolute;
+  margin: 2px -1px;
+  font-family: 'ubuntu_bold';
+  width: 208px;
+
+}
+h2 {
+  position: absolute;
+  top: 130px;
+  left: 189px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: left; 
+}
+.ug_cja{
+  background: rgba(82, 173, 208, 0.20);
+  border-radius: 5px;
+  border: dashed #52ADD0 3px;
+  box-shadow: 0 0 0 6pt rgba(76, 173, 208, 0.20);
+  // padding: 15px 20px 0px 40px;
+  position: absolute;
+}
+.ug_cja>span{
+  width: 85%;
+  height: 87%;
+  left: 7%;
+  position: absolute;
+}
+.ug_cja{
+ height:  100px;
+ width:  300px;
+ font-size:12px !important;
+}
+
+/*///////////////avatar2//////////////*/
+#avatar2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#nube2>.i {
+  left: 285px;
+  transform: rotate(204deg);
+}
+div#nube2 {
+  margin-left: 383px;
+  margin-top: 23px;
+}
+/*/////////////////////////////*/
+.expandir,
+.videoB{
+  padding-top: 1px;
+  padding-bottom: 12px;
+  padding-right: 5px;
+  padding-left: 4px;
+}
+#descarga1{
+  right: 0;
+}
+div#links {
+  top: 18%;
+  left: -93%;
+  width: 295px;
+}
+.www {
+  width: 273px;
+  height: 44px;
+}
+.nube{
+  font-size:16px !important;
+}
+.menu_boutique-area{
+  font-size:12px !important;
+}
+.cjaborde{
+  border:solid #fff;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.26);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.26);
+  box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.26);
+  color:#ccc;
+}

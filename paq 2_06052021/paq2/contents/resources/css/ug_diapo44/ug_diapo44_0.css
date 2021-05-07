@@ -1,0 +1,21 @@
+#santiago1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left:0px;
+  top:0px;
+  }
+
+#caja2{
+    line-height: 20px;
+    height: 121px;
+    width: 257px;
+    font-size: 13px;
+    margin: 0;
+    position: absolute;
+    left: 230px;
+    top: 100px;
+  }

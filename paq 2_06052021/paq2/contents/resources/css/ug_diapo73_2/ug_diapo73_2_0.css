@@ -1,0 +1,48 @@
+.grafico{
+  position: absolute;
+  top: 60px;
+  left: 130px;
+}
+
+.columna{
+  float: left;
+  margin-left: 10px;
+  width: 250px;
+}
+
+#clm1, #clm2, #clm3{
+  opacity: 0;
+}
+
+// #clm2{
+//   width: 200px;
+// }
+
+#santiago1 {
+    line-height: 20px;
+    height: 432px;
+    width: 144px;
+    font-size: 13px;
+    margin: 0;
+    position: absolute;
+    left: 750px;
+    top: 0px;
+}
+
+#nubeDer2{
+  line-height: 20px;
+  height: 85px;
+  width: 210px;
+  font-size: 16px;
+  margin: 0;
+  position: absolute;
+  left:505px;
+  top: 15px;
+}
+
+
+/**/  #nubDer{
+  right: -125%;
+  transform: rotate(-160deg);
+  top: 20%;
+}

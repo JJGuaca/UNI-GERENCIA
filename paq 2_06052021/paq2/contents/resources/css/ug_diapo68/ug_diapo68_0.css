@@ -1,0 +1,72 @@
+#jimena1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:41px;
+  top:20px;
+  }
+
+#santiago2{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:757px;
+  top:13px;
+  }
+
+#nubeIzq3{
+  line-height:20px;
+    height: 65px;
+    width: 307px;
+  font-size:16px;
+  margin:-10px 0px 0px;
+  position:absolute;
+  left:215px;
+  top:37px;
+  }
+
+#nubeDer4{
+  line-height:20px;
+  height:88px;
+  width:524px;
+  font-size:16px;
+  margin:-10px 0px 0px;
+  position:absolute;
+  left:187px;
+  top:120px;
+  }
+
+#caja5{
+  line-height:20px;
+  height:124px;
+  width:298px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:346px;
+  top:262px;
+  }
+
+
+  #img1{
+opacity: 0;
+position: absolute;
+left: 200px;
+top:220px;
+
+  }
+
+
+#nube3
+{
+      height: 50px !important;
+    width: 120px !important;
+    left: 190px;
+
+}

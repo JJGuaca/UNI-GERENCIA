@@ -1,0 +1,128 @@
+/*
+* @style       Stylo de ventana/ficha
+* @media       screen
+* @version     1.0
+* @copyright   Estrategia y Conocimiento SAS 
+* @apiName     UGPP
+* @layout      in pixels
+* @date        ©2015
+*
+*/
+.ug_menu {
+  position: relative;
+}
+.ug_menu ul {
+  position: relative;
+}
+.ug_menu ul li {
+  list-style: none;
+  background: #a6a6a6;
+  width: 265px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+}
+.ug_menu ul li span {
+  margin-left: 215px;
+  padding: 0;
+  position: relative;
+  top: 0;
+}
+.ug_menu ul li span:before {
+  content: " ";
+  background: #fff;
+  width: 2.7px;
+  height: 46px;
+  position: absolute;
+  margin-left: -5px;
+  top: -51px;
+}
+.ug_menu ul li span:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-top: 12px solid transparent;
+  border-left: 10.8px solid #fff;
+  border-bottom: 12px solid transparent;
+  top: -39px;
+  left: 7px;
+}
+.ug_menu ul li p {
+  position: relative;
+  margin: auto auto;
+  left:-10px;
+}
+.azul {
+  background: #52add0 !important;
+}
+/**
+ * menu superior
+ */
+nav#ug_menu {
+  margin-top: -5px;
+  background: none;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+}
+
+nav#ug_menu ul {
+  padding: 0;
+  background: white;
+  margin: 0 auto;
+  display: inline-block;
+  height: 30px;
+}
+
+nav#ug_menu ul li {
+  float: left;
+  padding: 0 20px;
+  list-style: none;
+  margin-right: 5px;
+  line-height: 30px;
+  height: 30px;
+  width: 132px;
+  transition: margin 0.1s ease-in-out;
+}
+
+nav#ug_menu ul li:nth-child(1) {
+  margin-left: 5px;
+}
+
+nav#ug_menu ul li.active {
+  background: #2980b9;
+}
+
+nav#ug_menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav#ug_menu h1#sitename {
+  font-size: 1.2em;
+  line-height: 30px;
+  margin: 0;
+  position: absolute;
+  left: 0.5em;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
+nav#ug_menu.scrolled {
+  margin: 0;
+  position: fixed;
+  top: 0;
+}
+
+nav#ug_menu.scrolled ul li {
+  margin: 0;
+}
+
+nav#ug_menu.scrolled h1#sitename {
+  opacity: 1;
+}

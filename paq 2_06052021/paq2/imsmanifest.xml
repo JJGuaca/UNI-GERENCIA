@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="NOMBRE_CURSO" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 api/scorm_xsd/imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 api/scorm_xsd/imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 api/scorm_xsd/adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="NOMBRECURSO_ORG">
+    <organization identifier="NOMBRECURSO_ORG" structure="hierarchical">
+      <title>programa Gerencia de Proyectos </title>
+      <item identifier="NOMBRECURSOM1" identifierref="res-NOMBRECURSOM1" isvisible="true">
+        <title>Gerencia de Proyectos</title>
+        <item identifier="NOMBRECURSOM1-1" isvisible="true">
+          <title>2. Inicio y Planeación del Proyecto</title>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+        <resource identifier="res-NOMBRECURSOM1" type="webcontent" href="index.html" adlcp:scormtype="sco">
+      <file href="index.html" />
+    </resource>
+  </resources>
+</manifest>

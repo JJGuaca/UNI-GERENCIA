@@ -1,0 +1,50 @@
+#img1{
+
+	position: absolute;
+	left:40px;
+	top:40px;
+}
+
+#jimena1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:auto;
+  top:auto;
+  }
+
+#santiago2{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:750px;
+  top:-3px;
+  }
+
+#nubeIzq3 {
+    line-height: 20px;
+    height: 145px;
+    width: 215px;
+    font-size: 16px;
+    margin: -10px 0px 0px;
+    position: absolute;
+    left: 189.986px;
+    top: 26.9618px;
+}
+
+#nubeDer4 {
+    line-height: 20px;
+    height: 247px;
+    width: 275px;
+    font-size: 16px;
+    margin: -10px 0px 0px;
+    position: absolute;
+    left: 451px;
+    top: 43.9757px;
+}

@@ -1,0 +1,96 @@
+   .menu_boutique-area {
+  width: 400px;
+  height: 40px;
+  background: #ccc;
+}
+
+.categories-item {
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  font-weight: 300;
+  padding: 0.5em 1.5em 0.5em 0.25em;
+  position: relative;
+  text-align: center;
+    font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+.categories-item.active:after {
+  content: ' ';
+  position: absolute;
+  right: 0;
+  background: url(../../../images/general/flechaArriba.png);
+  background-size: 100% 100%;
+  background-color: rgba(255, 255, 255, 0.54);
+  width: 28px;
+  height: 125%;
+  top: -5px;
+  margin: 0;
+  padding: 0;
+
+  /*background-color: #27A1B7;*/
+}
+.categories-item:after {
+  content: ' ';
+  position: absolute;
+  right: 0;
+  background: url(../../../images/general/flechaAbajo.png);
+  background-size: 100% 100%;
+  background-color: rgba(255, 255, 255, 0.54);
+  width: 28px;
+  height: 125%;
+  top: -5px;
+  margin: 0;
+  padding: 0;
+}
+.liste-produits {
+  padding: 0 0.25em;
+  background-color: #fff;
+  border: solid 1px #ccc;
+}
+.liste-produits li {
+  font-weight: 500;
+  position: relative;
+  padding: 10px;
+}
+.liste-produits li:before{
+
+ content: '';
+ display: inline-block;
+ left: 0.5em;
+ position: absolute;
+ top: 0
+}
+.liste-produits li + li{
+ border-top: solid 1px rgba(0,0,0,0.5)
+}
+.liste-categories li:last-child li:last-child{
+ border-bottom: solid 1px rgba(0,0,0,0.5)
+}
+.active.categories-item:after{
+ content: ' '
+}
+.produit-item {
+  color: inherit;
+}
+ul.liste-categories {
+  list-style: none;
+
+  width: 100%;
+  left: 0;
+  padding: 0;
+}
+ul.liste-categories {
+  list-style: none;
+  
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+ul.liste-produits {
+  list-style: none;
+}
+div#contenidoTexto>article>ul {
+  list-style: none;
+}

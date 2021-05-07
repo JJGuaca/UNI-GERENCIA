@@ -1,0 +1,29 @@
+#estrella1{
+  line-height:20px;
+  height:70px;
+  width:200px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:700px;
+  top:0px;
+}
+
+#botondoc2{
+  line-height:20px;
+  height:66px;
+  width:90px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:787px;
+  top:60px;
+}
+
+#botondoc2>span{
+  display: block;
+  width: 200px;
+  margin-left: -70px;
+  text-align: center;
+} 
+  

@@ -1,0 +1,88 @@
+#santiagoP1{
+  line-height:20px;
+  height:182px;
+  width:159px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:auto;
+  top:auto;
+  }
+
+#nubeIzq2{
+  line-height:20px;
+  height:60px;
+  width:450px;
+  font-size:16px;
+  margin:-10px 0px 0px;
+  position:absolute;
+  left:217px;
+  top:32px;
+  }
+
+#caja3{
+  line-height:20px;
+  height:296px;
+  width:688px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:167px;
+  top:142px;
+  }
+
+#estrella4{
+  line-height:20px;
+  height:43px;
+  width:320px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:600px;
+  top:400px;
+  }
+
+#botondoc5{
+  line-height:20px;
+  height:63px;
+  width:113px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:717.972px;
+  top:370.962px;
+  }
+
+
+#grafico1, #grafico2, #grafico3
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  margin: 10px;
+  opacity: 0;
+}
+
+#proceso
+{
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+#img1{
+  
+      position: relative;
+    left: 42px;
+}
+
+#img2{
+  
+      position: relative;
+    left: 42px;
+}
+
+#img3{
+  
+      position: relative;
+    left: 42px;
+}

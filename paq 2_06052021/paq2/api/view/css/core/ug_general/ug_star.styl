@@ -1,0 +1,26 @@
+/*
+* @style       Stylo de ventana/ficha
+* @media       screen
+* @version     1.0
+* @copyright   Estrategia y Conocimiento SAS 
+* @apiName     UGPP
+* @layout      in pixels
+* @date        ©2015
+*
+*/
+sizeStre =25px
+.ug_star
+  margin-left: sizeStre+10px
+  color: #000
+  &:before
+    background       : url("../../../../images/mod1/estrella.png")
+    background-repeat: no-repeat
+    background-size  : sizeStre sizeStre
+    content          : " ";
+    display          :block;
+    height           : sizeStre
+    left             : - sizeStre+(-8px)
+    position         :relative;
+    top              :10px;
+    width            :sizeStre
+    z-index          :5; 

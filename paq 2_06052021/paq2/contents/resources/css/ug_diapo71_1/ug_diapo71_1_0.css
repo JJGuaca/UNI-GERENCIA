@@ -1,0 +1,91 @@
+#jimena1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:20px;
+  top:16px;
+}
+
+#santiago2{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:759px;
+  top:17px;
+}
+
+#nubeIzq3 {
+  line-height: 20px;
+  height: 75px;
+  width: 190px;
+  font-size: 16px;
+  margin: -10px 0px 0px;
+  position: absolute;
+  left: 200px;
+  top: 95px;
+}
+
+#nubeDer4 {
+  line-height: 20px;
+  height: 83px;
+  width: 200px;
+  font-size: 16px;
+  margin: -10px 0px 0px;
+  position: absolute;
+  left: 535px;
+  top: 170px;
+}
+
+#nube3
+{
+  height: 65px !important;
+  width: 200px !important;
+  left: -100px !important;
+}
+
+#nube4
+{
+  height: 65px !important;
+  width: 300px !important;
+  left: 90px !important;
+}
+
+#c1 {
+  position: absolute;
+  left: 300px;
+  top: 290px;
+}
+
+#c2 {
+  position: absolute;
+  left: 480px;
+  top: 290px;
+}
+
+#c3{
+  
+  position: absolute;
+  left: 300px;
+  top: 360px;
+}
+
+#c4{
+  
+  position: absolute;
+  left: 480px;
+  top: 360px;
+}
+
+#boton3, #boton4, #boton5, #boton6{  
+  height: 47px;
+}
+
+.linea1{
+  line-height: 35px;
+}

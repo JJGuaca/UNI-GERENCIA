@@ -1,0 +1,61 @@
+#santiago1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:5px;
+  top:3px;
+}
+
+#nubeIzq2{
+  line-height: 20px;
+  height: 100px;
+  width: 290px;
+  font-size: 16px;
+  margin: -10px 0px 0px;
+  position: absolute;
+  left: 190px;
+  top: 40px;
+}
+
+#estrella7{
+  line-height: 20px;
+  height: 60px;
+  width: 280px;
+  font-size: 13px;
+  margin: 0px;
+  position: absolute;
+  left: 550px;
+  top: 440px;
+}
+
+#tod1, #tod2, #tod3{
+  display: inline-block;
+  vertical-align: top;
+  width: 230px;
+  margin: 0 5px;
+}
+
+
+#tod1{
+  opacity: 0;
+  
+}
+#tod2{
+  opacity: 0;
+  
+}
+#tod3{
+  opacity: 0;
+  
+}
+
+
+#grafico
+{
+  position: absolute;
+  top: 150px;
+  left: 220px;
+}

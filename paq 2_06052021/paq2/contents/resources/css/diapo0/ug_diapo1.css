@@ -1,0 +1,344 @@
+#botonera {
+  border: solid #000 1px;
+  width: 20%;
+  top: -108px;
+  left: -20%;
+  position: relative;
+  padding: 10px;
+  background: #222630;
+}
+#NuevoCodigo,
+#caracteristicas{
+  border: solid #000 1px;
+  width: 550px  ;
+  top: 0px;
+  height: auto;
+  position: absolute;
+  left: 23%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  -webkit-box-shadow: 17px 14px 22px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 17px 14px 22px -5px rgba(0,0,0,0.75);
+  box-shadow: 17px 14px 22px -5px rgba(0,0,0,0.75);
+  border-radius: 7px;
+  z-index: 9999;
+}
+#NuevoCodigo{
+
+}
+#iframeNC{
+  width: 100%;
+  height: 350px;
+}
+.botonContenedor{
+}
+#eso{
+  position: absolute;
+  margin: 0;
+}
+.attr{
+  width: 60px;
+  position: relative;
+}
+.titulo{
+  position: relative;
+  color: #F2F2F2;
+  padding-bottom: 21px;
+  font-size: 20px;
+
+}
+#ug_title{
+  position: relative;
+  margin: -22px 90px;
+  color: #000;
+  width: 630px;
+  color: #111111;
+  text-shadow: -1px -1px 0 #555, -1px -2px 0 #444, -1px -3px 0 #333;
+}
+.espacio{
+  padding-left: 17px;
+  position: relative;
+  width: 24px;
+  height: 1px;
+  /* background-color: #fff; */
+  margin-left: 26px;
+  margin-top: 3px;
+}
+.ui-widget-header {
+  border: 1px solid #aaaaaa;
+  background: #1B1515 !important;
+  color: #fff !important;
+}
+.ug_capital {
+  text-transform: capitalize;
+  color: #D2AF26;
+}
+.cont{
+  text-align: right;
+  line-height: 30px;
+  display: inline;
+  list-style-type: none;
+}
+.resizable{
+  margin: 0;
+  padding: 0;
+  position: absolute !important;
+}
+ul#cajaA{
+  width: 530px;
+  border: solid 1px;
+  text-align: center;
+  padding: 0;
+}
+.Noact {
+  border: solid #ccc 1px;
+  padding: 2px;
+  font-size: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #1B1515;
+  cursor: pointer;
+}
+.NoactAct{  
+  background-color: #504F53 !important;
+  cursor: auto;
+}
+#ciereX,
+#equis{
+  margin-top: -26px;
+  cursor: pointer;
+  z-index: 99;
+  border: solid 1px #F9F4F4;
+  width: 22px;
+  text-align: center;
+  right: 5px;
+  height: 22px;
+  border-radius: 55px;
+  position: absolute;
+}
+#ciereX:hover,
+#equis:hover{
+  color: red;
+}
+.nube2 .i, .nube1 .i {
+  left: -55px !important;
+  transform: rotate(-19deg);
+}
+/**
+ * botonra
+ */
+ .Vbutton {
+  width: 47%;
+  padding: 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+button {
+  position: relative;
+  margin: 1em;
+  padding: 0.5em 1em;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: .3em;
+  border: 0.1em solid black;
+  background: #222630;
+  box-shadow: inset 0 .1em rgba(255,255,255,0.1), 0 .1em .1em black, 0 0.2em rgba(255,255,255,0.1), 0 0 0 .2em rgba(0,0,0,0.1);
+  color: #f30;
+  text-shadow: 0 0.1em rgba(255,255,255,0.1), 0 -0.1em rgba(0,0,0,0.2);
+}
+
+button:hover {
+  text-shadow: 0 0 .3em #f30;
+  cursor: pointer;
+}
+
+button:active {
+  text-shadow: 0 0 .3em #f30;
+  top: 0.1em;
+  box-shadow: inset 0 .1em rgba(255,255,255,0.1), 0 0.1em rgba(255,255,255,0.1), 0 -0.1em 0 .2em rgba(0,0,0,0.1);
+}
+#Vhtml{
+  width: 100%;
+  height: 200px;
+  background-color: #1B1515;
+  color: #71AA19;
+}
+/*boton tool*/
+.Tool{
+  height: 80%;
+  color: #818181;
+  background-image: linear-gradient(top, #383838 0%, #1F1F1F 5%, #161616 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1F1F1F), to(#161616));
+  border-radius: 7px;
+  box-shadow: 0 0 1px 1px rgb(10,10,10);
+  cursor: pointer;
+  position: relative;
+  font: normal 18px arial;
+  text-transform: uppercase;
+  padding-left: 0%;
+  padding-top: 9%;
+  padding-bottom: 5%;
+  vertical-align: bottom;
+  transition: color .3s ease;
+  margin-left: 3px;
+  margin-top: 0px;
+}
+
+.Tool:hover{
+  color: #9E9E9E;
+}
+
+.Tool:active{
+  box-shadow: 0 0 1px 1px rgb(10,10,10),
+  inset 0 2px 2px 0px black;
+}
+
+.Tool:before{
+  position: absolute;
+  content: '';
+  right: 15px;
+  top: 10px;
+
+  width: 12px;
+  height: 12px;
+  background: #646464;
+  background-image: radial-gradient(top, #616161 0%, #616161 20%, #535353 60%);
+  border-radius: 50%;
+  box-shadow: 0 0 4px #1C1C17;
+  transition: all .3s ease;
+}
+
+.Tool:hover:before{
+  background: #FF4F4F;
+  box-shadow: 0 0 4px #1C1C17,
+  0 0 5px #FF4242;
+}
+
+.Tool:active:before{
+  box-shadow: 0 0 4px #1C1C17,
+  inset 0 2px 2px 0px #CC0000;
+}
+
+.Tool:nth-child(1){
+  width: 100%;
+  margin-right: 2%;
+}
+
+.Tool:nth-child(2){
+  width: 58%;
+}
+button#NuevoBoton,
+button#ModificarBoton,
+button#refresh 
+{
+  font-size: 13px;
+}
+.Tool:nth-child(4),
+.Tool:nth-child(3),
+.Tool:nth-child(2) {
+  width: 100%;
+}
+/*titulo de la pagina*/
+h1 {
+  font-size: 30px;
+  padding: 15px 50px;
+  text-align: left;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+h1.elegantshadow {
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  top: 0;
+  margin-top: 0;
+  text-shadow: 1px 1px 0px #333,
+  2px 2px 0px #333,
+  3px 3px 0px #333,
+  4px 4px 0px #333,
+  5px 5px 0px #333,
+  6px 6px 0px #333,
+  7px 7px 0px #333,
+  8px 8px 0px #333,
+  9px 9px 0px #333,
+  11px 11px 10px #000;
+}
+button#b1 {
+  position: absolute;
+  top: -3px;
+  left: 811px;
+  z-index: 999;
+  width: 134px !important;
+  height: 36px;
+  line-height: 12px;
+  padding-top: 3px;
+  padding-right: 50px;
+}
+#b1>img{
+  height: auto;
+  width: 34px;
+  position: absolute;
+  right: 3px;
+  top: 0;
+}
+button#b2 {
+  position: absolute;
+  top: -56px;
+  left: 41%;
+  z-index: 999;
+}
+#diapo {
+  position: absolute;
+  left: 770px;
+  height: 37px;
+  top: 9px;
+  width: 60px;
+  border-radius: 10px 0px 0px 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: solid 1px;
+  font-size: 24px;
+  color: #DE3300;
+  background-color: #222630;
+}
+section#editor {
+ width: 510px;
+ top: 15%;
+ position: absolute;
+ left: 25%;
+ border: solid 15px rgba(34, 38, 48, 1);
+ border-top: solid 30px;
+ border-radius: 20px;
+ z-index: 90;
+ cursor: move;
+ background-color: #222630;
+}
+button#edita {
+  cursor: pointer;
+}
+div#ciereX {
+  color: #fff;
+  right: -7px;
+}
+div#tinymce-13-body {
+  text-align: center;
+}
+img#cuadricula {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+.cuadriG{
+  top: 21px;
+}
+button#guardarHT {
+ position: relative;
+  left: 40%;
+  margin: 0px 0;
+  top: 6px;
+}

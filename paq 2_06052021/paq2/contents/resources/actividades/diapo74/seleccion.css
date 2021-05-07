@@ -1,0 +1,144 @@
+.check
+{
+	    background: #91BF20;
+    /* border-radius: 50% 50%; */
+    color: rgb(255,255,255);
+    cursor: pointer;
+    height: 100px;
+    width: 186px;
+    position: absolute;
+    text-align: center;
+}
+
+.check>div
+{
+	border-radius: 50% 50%;
+	height: 16px;
+	margin: 0 auto;
+	position: relative;
+	width: 16px;
+	top: 2.5px;
+	opacity: 0;
+}
+
+.check>div>span
+{
+	position: relative;
+
+}
+
+#btnRevisar
+{
+	background: #0070A2;
+	color: rgb(255,255,255);
+	cursor: pointer;
+	display: block;
+	height: 35px;
+	text-align: center;
+	width: 80px;
+	font-family: 'ubuntu_regular';
+	font-size: 16px;
+
+	position: absolute;
+   	top: 280px;
+    left: 330px;
+}
+
+
+#btnRevisar>span
+{
+	position: relative;
+	top: 8px;
+}
+
+#check1
+{
+	top: 100px;
+    left: 88px;
+    font-size: 24px;
+}
+
+
+#check2
+{
+	top: 100px;
+    left: 280px;
+    font-size: 24px;
+}
+
+#check3
+{
+    top: 100px;
+        left: 472px;
+        font-size: 24px;
+}
+
+
+
+.gris
+{
+	background: rgb(70,70,70);
+}
+
+
+#mensaje
+{
+	background: rgb(190,76,39);
+	color: rgb(255,255,255);
+    font-size: 21px;
+	position: absolute;
+	left: 288px;
+    top: 160px;
+	z-index: 30;
+	border-radius: 18px;
+	opacity: 0;
+	text-align: center;
+	z-index: 30;
+    padding: 10px;
+
+    width: 150px;
+
+ 
+
+}
+
+/*#ganaste
+{
+    font-family: 'ubuntu_regular';
+    
+}*/
+
+
+
+
+#renglon1
+{
+	   margin-top: 40px;
+    position: relative;
+    display: block;
+}
+
+
+
+#renglon2
+{
+	    margin-top: 35px;
+	
+    position: relative;
+    display: block;
+}
+
+#renglon3
+{
+	    margin-top: 22px;
+    position: relative;
+    display: block;
+}
+
+
+#renglon4
+{
+	  margin-top: 10px;
+    position: relative;
+    display: block;
+}

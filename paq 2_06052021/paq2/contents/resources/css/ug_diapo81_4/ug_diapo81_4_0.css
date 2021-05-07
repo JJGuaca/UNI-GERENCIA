@@ -1,0 +1,39 @@
+#santiago1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left:0px;
+  top:0px;
+  }
+
+#nubeIzq2{
+  line-height:20px;
+  height:140px;
+  width:577px;
+  font-size:16px;
+  margin:0;
+  position:absolute;
+  left:178px;
+  top:14px;
+  }
+
+#estrella3 {
+    position: absolute;
+    top: 225px;
+    left: 330px;
+}
+#botondoc2
+{
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
+#botondoc2>span{
+  display: block;
+  width: 200px;
+  margin-left: -70px;
+  text-align: center;
+}

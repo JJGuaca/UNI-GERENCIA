@@ -1,0 +1,46 @@
+
+#santiago2{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:34px;
+  top:27px;
+  }
+
+
+
+#nubeIzq5 {
+    line-height: 20px;
+    height: 60px;
+    width: 526px;
+    font-size: 16px;
+    margin: -10px 0px 0px;
+    position: absolute;
+    left: 200px;
+    top: 32px;
+}
+
+#img1 {
+    position: absolute;
+    left: 542px;
+    top: 212px;
+}
+
+
+#img2
+{
+      position: absolute;
+    left: 320px;
+    top: 100px;
+
+    opacity: 0;
+}
+
+#nubeIzq5>.i
+{
+      left: 22px;
+    transform: rotate(-30deg);
+}

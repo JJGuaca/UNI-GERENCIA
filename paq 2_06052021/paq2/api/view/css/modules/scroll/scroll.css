@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*------------------------------------------------------
+	Propietario:	Estrategia y Conocimiento SAS ©2015
+  Producto: 		Plantilla integración SCORM 1.2
+  Información:	Hoja de estilos scroll.
+  Derechos:			Derechos totalmente reservados para su
+  							distribución, copia o modificación,
+                salvo expresa autorización de:
+                Estrategia y Conocimiento SAS.
+--------------------------------------------------------*/
+
+/*********************************************************
+	SEGMENTO: ESTILOS BOTÓN SCROLL
+**********************************************************/
+.back-to-top {
+  position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter: alpha(opacity=40); /* internet explorer */
+	-khtml-opacity: 0.4;      /* khtml, old safari */
+	-moz-opacity: 0.4;       /* mozilla, netscape */
+	opacity: 0.4;           /* fx, safari, opera */
+}
+
+.back-to-top:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60); /* internet explorer */
+	-khtml-opacity: 0.6;      /* khtml, old safari */
+	-moz-opacity: 0.6;       /* mozilla, netscape */
+	opacity: 0.6;           /* fx, safari, opera */
+}

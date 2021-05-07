@@ -1,0 +1,166 @@
+/*palay of drag and drop*/
+#a1,
+#droppable3,
+#droppable2,
+#droppable1 { 
+   width: 173px;
+   height: 84px;
+   padding: 0.5em;
+   float: left;
+   margin: 10px;
+   background: url('../../img/diapo21/img1.png');
+
+}
+
+#draggable5, 
+#draggable4, 
+#draggable3, 
+#draggable2, 
+#draggable1, 
+#draggable-nonvalid { 
+    width: 140px;
+    height: 100px; 
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+    position: absolute;
+    /*top:242px;*/
+    z-index:10;
+    background: rgba(70,70,70,0.2);
+}
+
+#draggable2 {
+    left: 55px !important;
+    top: 170px !important;
+    text-align: left !important;
+
+}
+#draggable3 {
+    left: 270px !important;
+    top: 170px !important;
+    text-align: left !important;
+
+}
+
+
+#draggable1{
+    left: 480px !important;
+    top: 170px !important;
+    text-align: left !important;
+
+} 
+
+.ui-state-highlight{
+    border:none;
+}
+/*Maqueta*/
+#titleUgEj {
+    position: absolute;
+    top: 0;
+    left: 73px;
+}
+span#titleUgEj>div {
+    position: absolute;
+    top: 60px;
+    left: 152px;
+    font-size: 16px;
+    color: #fff;
+}
+div#droppable1 {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+div#droppable2 {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+div#droppable3 {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#draggable-nonvalid {
+    left: 512px;
+    top: 224px;
+    z-index:9
+}
+div#a1 {
+    margin-top: 0px;
+    margin-left: 0px;
+    background: url('../../img/diapo21/img1.png') !important;
+}
+article#caja {
+    width: 790px;
+    height: 113px;
+    padding-top: 320px;
+    padding-left: 160px;
+}
+
+#caja3 {
+    position: absolute;
+    top: 165px;
+    left: 150px;
+}
+
+img#mal {
+    margin-top: 241px;
+    margin-left: 518px;
+}
+
+#Over{
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  width: 591px;
+  z-index: 9;
+  border-left: solid 76px #FFF;
+  border-right: solid 127px #fff;
+}
+#droppable,
+#droppable5,
+#droppable4,
+#droppable3,
+#droppable2,
+#droppable1 { 
+   width: 170px;
+   height: 305px;
+   padding: 0.1em;
+   float: left;
+   margin: -290px 20px 63px 50px !important;
+
+}
+
+#droppable1{
+  background: rgba(70,70,70,0.2);
+  width: 140px !important;
+  height: 250px;
+  text-align: center;
+}
+
+#droppable2{
+  background: rgba(70,70,70,0.2);
+  width: 140px !important;
+  height: 250px;
+ text-align: center;
+}
+
+#droppable3{
+  background: rgba(70,70,70,0.2);
+  width: 140px !important;
+  height: 250px;
+ text-align: center;
+
+
+
+}
+
+.ui{
+   width: 100%;
+   height: 100%;
+}
+
+.ui-draggable-dragging
+{
+  width: 200px !important;
+
+}

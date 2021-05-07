@@ -1,0 +1,121 @@
+@charset "utf-8";
+/*------------------------------------------------------
+	Propietario:	Estrategia y Conocimiento SAS ©2015
+  Producto: 		Plantilla integración SCORM 1.2
+  Información:	Hoja de estilos panels.
+  Derechos:			Derechos totalmente reservados para su
+  							distribución, copia o modificación,
+                salvo expresa autorización de:
+                Estrategia y Conocimiento SAS.
+--------------------------------------------------------*/
+
+/*********************************************************
+	SEGMENTO: ESTILOS PANELES
+**********************************************************/
+div.contPanel{
+	display:none;
+	width:100%;
+}
+div.contPanel.contPanelAbierto{
+	display:block;
+}
+/* PANEL COLOR 1 */
+div.contPanel div.tituloPanel.colorPanel1:hover, div.contPanel div.tituloPanel.panelAbierto.colorPanel1{
+	color:#FFF;
+}
+div.contPanel div.tituloPanel.panelAbierto.colorPanel1{
+	background:url(../../../images/modules/panels/cierra1.png) top right no-repeat #ae3c9e;
+}
+div.contPanel div.tituloPanel.colorPanel1{
+	background:url(../../../images/modules/panels/amplia1.png) top right no-repeat #ae3c9e;
+	color:#dfb1d8;
+}
+/* FIN PANEL COLOR */
+/* PANEL COLOR 2 */
+div.contPanel div.tituloPanel.colorPanel2:hover, div.contPanel div.tituloPanel.panelAbierto.colorPanel2{
+	color:#FFF;
+}
+div.contPanel div.tituloPanel.panelAbierto.colorPanel2{
+	background:url(../../../images/modules/panels/cierra2.png) top right no-repeat #276a84;
+}
+div.contPanel div.tituloPanel.colorPanel2{
+	background:url(../../../images/modules/panels/amplia2.png) top right no-repeat #276a84;
+	color:#a9c3ce;
+}
+/* FIN PANEL COLOR */
+/* PANEL COLOR 3 */
+div.contPanel div.tituloPanel.colorPanel3:hover, div.contPanel div.tituloPanel.panelAbierto.colorPanel3{
+	color:#FFF;
+}
+div.contPanel div.tituloPanel.panelAbierto.colorPanel3{
+	background:url(../../../images/modules/panels/cierra3.png) top right no-repeat #91bf20;
+}
+div.contPanel div.tituloPanel.colorPanel3{
+	background:url(../../../images/modules/panels/amplia3.png) top right no-repeat #91bf20;
+	color:#bdd979;
+}
+/* FIN PANEL COLOR */
+/* PANEL COLOR 4 */
+div.contPanel div.tituloPanel.colorPanel4:hover, div.contPanel div.tituloPanel.panelAbierto.colorPanel4{
+	color:#FFF;
+}
+div.contPanel div.tituloPanel.panelAbierto.colorPanel4{
+	background:url(../../../images/modules/panels/cierra4.png) top right no-repeat #626165;
+}
+div.contPanel div.tituloPanel.colorPanel4{
+	background:url(../../../images/modules/panels/amplia4.png) top right no-repeat #626165;
+	color:#a1a0a3;
+}
+/* FIN PANEL COLOR */
+/* PANEL COLOR 5 */
+div.contPanel div.tituloPanel.colorPanel5:hover, div.contPanel div.tituloPanel.panelAbierto.colorPanel5{
+	color:#FFF;
+}
+div.contPanel div.tituloPanel.panelAbierto.colorPanel5{
+	background:url(../../../images/modules/panels/cierra5.png) top right no-repeat #00afd3;
+}
+div.contPanel div.tituloPanel.colorPanel5{
+	background:url(../../../images/modules/panels/amplia5.png) top right no-repeat #00afd3;
+	color:#99dfed;
+}
+
+
+/* PANEL COLOR 6 */
+div.contPanel div.tituloPanel.colorPanel6:hover, div.contPanel div.tituloPanel.panelAbierto.colorPanel6{
+	color:#FFF;
+}
+div.contPanel div.tituloPanel.panelAbierto.colorPanel6{
+	background:url(../../../images/modules/panels/cierra5.png) top right no-repeat #99dfed;
+}
+div.contPanel div.tituloPanel.colorPanel6{
+	background:url(../../../images/modules/panels/amplia5.png) top right no-repeat #99dfed;
+	color:rgba(70,70,70,1);
+}
+
+/* PANEL COLOR 7 */
+div.contPanel div.tituloPanel.colorPanel7:hover, div.contPanel div.tituloPanel.panelAbierto.colorPanel7{
+	color:#FFF;
+}
+div.contPanel div.tituloPanel.panelAbierto.colorPanel7{
+	background:url(../../../images/modules/panels/cierra1.png) top right no-repeat rgba(143, 56, 151,1);
+}
+div.contPanel div.tituloPanel.colorPanel7{
+	background:url(../../../images/modules/panels/amplia1.png) top right no-repeat rgba(143, 56, 151,1);
+	color:rgba(255,255,255,1);
+}
+
+
+
+/* FIN PANEL COLOR */
+div.contPanel div.tituloPanel{
+	font-size:14px;
+	text-align:center;
+	font-weight:bold;
+	padding:3px 3px 3px 25px;
+	cursor:pointer;
+}
+div.contenidoPanel{
+	background-color:#FFF;
+	padding:10px;
+	border:1px solid #b2b2b2;
+}

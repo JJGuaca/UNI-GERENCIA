@@ -1,0 +1,18 @@
+#cajaSubtitulo1{
+  line-height:20px;
+  height:83px;
+  width:285px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:4px;
+  top:-3px;
+  }
+
+
+#actividad
+{
+  border: none;
+  position: absolute;
+  left: 150px;
+}

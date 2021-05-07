@@ -1,0 +1,94 @@
+#jimena1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:17px;
+  top:3px;
+}
+
+#santiago2{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:756px;
+  top:-2px;
+}
+
+#nubeIzq3 {
+  line-height: 20px;
+  height: 75px;
+  width: 465px;
+  font-size: 16px;
+  margin: -10px 0px 0px;
+  position: absolute;
+  left: 200px;
+  top: 14px;
+}
+
+#nubeDer4 {
+  line-height: 20px;
+  height: 100px;
+  width: 350px;
+  font-size: 16px;
+  margin: -10px 0px 0px;
+  position: absolute;
+  left: 400px;
+  top: 130px;
+}
+
+#parrafoPunto6 {
+  position: absolute;
+  left: 346px;
+  top: 345px;
+  height: 30px;
+  width: 204px;
+}
+
+#nube3{
+  height: 110px !important;
+  left: -10px;
+}
+
+
+#img1 {
+  position: absolute;
+  top: 290px;
+  left: 160px;
+  opacity: 0;
+}
+
+#img2 {
+position: absolute;
+    left: 260px;
+    top: 320px;
+      opacity: 0;
+    }
+    
+    #img3 {
+    position: absolute;
+    top: 290px;
+    left: 315px;
+  opacity: 0;
+    }
+    
+
+    #img4 {
+    position: absolute;
+ top: 320px;
+    left: 414px;
+  opacity: 0;
+    }
+    
+
+    #img5 {
+position: absolute;
+    left: 464px;
+top: 290px;
+  opacity: 0;
+    }

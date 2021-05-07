@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*------------------------------------------------------
+	Propietario:	Estrategia y Conocimiento SAS ©2015
+  Producto: 		Plantilla integración SCORM 1.2
+  Información:	Hoja de estilos fuente Ubuntu.
+  Derechos:			Derechos totalmente reservados para su
+  							distribución, copia o modificación,
+                salvo expresa autorización de:
+                Estrategia y Conocimiento SAS.
+--------------------------------------------------------*/
+@font-face {
+    font-family: 'ubuntu_regular';
+    src: url('Ubuntu-R.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_regular_italica';
+    src: url('Ubuntu-RI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_bold';
+    src: url('Ubuntu-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_bold_italica';
+    src: url('Ubuntu-BI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_condensed';
+    src: url('Ubuntu-C.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_light';
+    src: url('Ubuntu-L.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_light_italica';
+    src: url('Ubuntu-LI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_medium';
+    src: url('Ubuntu-M.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_medium_italica';
+    src: url('Ubuntu-MI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_mono_bold';
+    src: url('UbuntuMono-B.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_mono_bold_italica';
+    src: url('UbuntuMono-BI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_mono_regular';
+    src: url('UbuntuMono-R.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntu_mono_regular_italica';
+    src: url('UbuntuMono-RI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

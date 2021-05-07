@@ -1,0 +1,63 @@
+<script src="../resources/js/ug_general/popuppuntos.js"></script>
+      <link href="../resources/css/ug_general/popuppuntos.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+    <!-- popUp  -->
+    <div class="cajaPopup" id="principal"> 
+     <div id="pop">
+      <div id="equis" style="z-index: 2"><img src="../resources/img/cerrar.png" ></div>
+      <!--capsula -->
+      <div id="cajaPop1" class="cajasPop">
+        <div id="contenidoTexto">
+           <article id="" class="aguamarina blancoTexto" style="height: 260px;opacity: 1;width: 86%;">     
+          texto 
+          </article>
+
+        </div>
+        <div id="botones">
+          <div id=""  class="punto verde" segSCORM="si">
+            <span></span>
+
+          </div>
+        </div>
+      </div>
+
+      </div>
+</div>
+      <!--fin capsula  -->
+     <!-- normal -->
+    <div id="cajaPop1" class="cajasPop">
+      <div id="contenidoTexto">
+          <h3 class="tituloCajaPopPuntos naranjaTexto">Titulo</h3>   
+
+        <article id="">   
+          parrafo
+          <ul>
+            <li>✔ ) lista.  </li><br>
+            </ul>
+          </article>
+
+        </div>
+        <div id="botones">
+          <div id=""  class="punto verde" segSCORM="si">
+            <span></span>
+
+          </div>
+        </div>
+      </div>
+      <!-- fin normal  -->
+
+      <div id="derecha_caja">
+        <img src="../resources/img/fp1.png" >
+      </div>
+      <div id="izquierda_caja">
+        <img src="../resources/img/fp2.png">
+      </div>
+    </div>  
+  </div>    
+    <!-- fin popUp -->
+
+
+<!-- en el boton -->
+
+ <div id="c1" class="cajaPopPunto"></div>   

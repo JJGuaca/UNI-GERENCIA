@@ -1,0 +1,16 @@
+#caja1{
+  line-height:20px;
+  height:71px;
+  width:103px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+    left: 300px;
+  top:37px;
+  }
+
+
+.imagenes
+{
+	opacity: 0;
+}

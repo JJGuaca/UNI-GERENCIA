@@ -1,0 +1,86 @@
+#contenidoPuntos
+	{
+		position: relative;
+		width: 100%;
+	}
+
+	#contenidoPuntos, #botonesPuntos
+	{
+		display: block;
+	}
+
+	#contenidoPuntos>article
+	{
+		font-family: 'ubuntu_regular';
+		text-align: justify;
+	}
+
+	#botonesPuntos
+	{
+		position: absolute;
+		bottom: 0;
+		text-align: right;
+		width: 100%;
+	}
+	#botonesPuntos>div
+	{
+		cursor: pointer;
+		background: rgb(120, 193, 0);
+		border-radius: 50% 50%;
+		width: 15px;
+		height: 15px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		margin: 0 2px;
+	}
+
+	#botonesPuntos>div>span
+	{
+		color: rgba(255,255,255,1);
+		left: 0;
+	}
+
+	#contenidoPuntos>article
+	{
+
+		display: inline-block;
+		vertical-align: top;
+		padding: 20px;
+		position: absolute;
+		opacity: 1;
+	}
+	.contenedorPrincipalPuntos
+	{
+		border: 2px solid rgba(70,70,70,0.5);
+	    height: 243px;
+	    position: relative;
+	    width: 503px;
+	    top: 169px;
+	    left: 294px;
+	}
+
+	.pActual
+	{
+		background: rgb(73, 96, 16) !important;
+	}
+	.pRevisar
+	{
+		background: rgb(125, 190, 2);
+	}
+
+#izquierda_caja
+{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: -15px;
+}
+
+#derecha_caja
+{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	right: -15px;
+}

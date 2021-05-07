@@ -1,0 +1,54 @@
+#santiagoP1{
+  line-height:20px;
+  height:182px;
+  width:159px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left:779px;
+  top:-10px;
+  }
+
+#nubeDer2{
+  line-height:20px;
+  height:82px;
+  width:477px;
+  font-size:16px;
+  margin:0;
+  position:absolute;
+  left:231px;
+  top:54px;
+  }
+
+
+#caja4{
+  line-height:20px;
+  height:88px;
+  width:211px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left:216px;
+  top:196px;
+  }
+
+
+#grafico
+{
+       width: 750px;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
+
+#imagen1, #imagen2, #imagen3
+{
+  display: inline-block;
+  vertical-align: top;
+
+  margin: 0px 10px;
+  width: 200px;
+
+  opacity: 0;
+
+}

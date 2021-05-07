@@ -1,0 +1,73 @@
+#jimena1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left:0px;
+  top:0px;
+  }
+
+#nubeIzq2{
+  line-height:20px;
+  height:83px;
+  width:297px;
+  font-size:16px;
+  margin:0;
+  position:absolute;
+  left:171px;
+  top:19px;
+  }
+
+#santiago3{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left:760px;
+  top:7px;
+  }
+
+#nubeDer4{
+  line-height:20px;
+  height:127px;
+  width:480px;
+  font-size:16px;
+  margin:0;
+  position:absolute;
+  left:270px;
+  top:124px;
+  }
+
+#nube4 {
+    height: 51px !important;
+    top: 32px;
+    width: 300px;
+    left: 45px;
+}
+#estrella3 {
+    position: absolute;
+    top: 370px;
+    left: 265px;
+}
+
+#botondoc2 {
+    position: absolute;
+    top: 280px;
+    left: 400px;
+}
+
+#botondoc2>span{
+  display: block;
+  width: 200px;
+  margin-left: -70px;
+  text-align: center;
+}
+
+
+#botondoc2V{
+    left: 366px !important;
+}

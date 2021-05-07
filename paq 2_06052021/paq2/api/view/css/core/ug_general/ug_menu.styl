@@ -1,0 +1,57 @@
+/*!
+* @style       Stylo de ventana/ficha
+* @media       screen
+* @version     1.0
+* @copyright   Estrategia y Conocimiento SAS 
+* @apiName     UGPP
+* @layout      in pixels
+* @date        ©2015
+*
+*/
+size_after =265px
+alto_flecha =30px
+.ug_menu
+  position: relative
+  ul
+    position: relative
+    li
+      list-style: none
+      background: rgb(166, 166, 166)
+      width: size_after
+      height: alto_flecha
+      color:white
+      text-align: center
+      padding-top: 10px
+      padding-bottom: 10px
+      margin-top: 5px
+      span
+        margin-left: size_after+(-50px)
+        padding    : 0
+        position   : relative
+        top        :0
+        triangulo= 12px
+        &:before
+          content: " "
+          background: #fff
+          width: 2.7px
+          height: alto_flecha+16px
+          position: absolute
+          margin-left: -5px
+          top: -51px
+        &:after
+          content: " "
+          width: 0
+          height: 0
+          position: absolute
+          border-top: triangulo solid transparent;
+          border-left: triangulo *0.9 solid #fff;
+          border-bottom: triangulo solid transparent; 
+          top:-39px
+          left: 7px
+      & p
+        position: relative  
+        margin:auto auto
+        left:-10px;
+.azul
+  background: rgb(82, 173, 208) !important 
+ 

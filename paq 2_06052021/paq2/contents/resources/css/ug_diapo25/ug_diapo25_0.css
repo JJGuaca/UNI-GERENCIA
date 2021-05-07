@@ -1,0 +1,80 @@
+#santiago1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left:0px;
+  top:0px;
+  }
+
+#nubeIzq2 {
+    line-height: 20px;
+    height: 90px;
+    width: 570px;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    left: 177px;
+    top: 0px;
+}
+
+#caja3{
+  line-height:20px;
+  height:244px;
+  width:344px;
+  font-size:13px;
+  margin:0;
+  position:absolute;
+  left:300px;
+  top:120px;
+  }
+
+
+.conceptos
+{
+  position: absolute;
+}
+
+
+#concepto1
+{
+      top: -20px;
+    left: 104px;
+}
+
+#concepto2
+{
+  top: 100px;
+  left: 350px;
+  width: 100px;
+}
+
+#concepto3
+{
+     top: 284px;
+    left: 310px;
+    width: 130px;
+}
+
+#concepto4
+{
+    top: 300px;
+    left: -60px;
+  
+}
+
+#concepto5
+{
+      top: 114px;
+    left: -85px;
+  
+}
+
+#c1{
+  position:absolute;
+  left:700px;
+  top:120px;
+
+}

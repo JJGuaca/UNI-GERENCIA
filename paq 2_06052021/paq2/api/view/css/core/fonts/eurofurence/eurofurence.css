@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*------------------------------------------------------
+	Propietario:	Estrategia y Conocimiento SAS ©2015
+  Producto: 		Plantilla integración SCORM 1.2
+  Información:	Hoja de estilos fuente Ubuntu.
+  Derechos:			Derechos totalmente reservados para su
+  							distribución, copia o modificación,
+                salvo expresa autorización de:
+                Estrategia y Conocimiento SAS.
+--------------------------------------------------------*/
+/*@font-face {
+    font-family: 'eurof35';
+    src: url('../fonts/eurofurence/eurof35.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+@font-face {
+    font-family: 'eurof35';
+    src: url('eurof35.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'eurof36';
+    src: url('eurof36.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'eurof55';
+    src: url('eurof55.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'eurof56';
+    src: url('eurof56.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'eurof75';
+    src: url('eurof75.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'eurof76';
+    src: url('eurof76.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

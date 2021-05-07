@@ -1,0 +1,32 @@
+#nubeDer3 {
+    margin-left: 5px !important;
+    padding-left: 70px !important;
+    position: absolute !important;
+    top: 58px !important;
+    width: 192px !important;
+    height: 90px !important;
+    left: 483px !important;
+    z-index: 10 !important;
+}
+#tit1 {
+    position: absolute;
+    left: 195px;
+    top: 45px;
+    opacity:0;
+}
+
+#santiago1{
+  line-height:20px;
+  height:432px;
+  width:144px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:760px;
+  top:15.9965px;
+  }
+  /**/  #nubDer{
+  right: -125%;
+  transform: rotate(-165deg);
+  top: 15%;
+}

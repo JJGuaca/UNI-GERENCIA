@@ -1,0 +1,17 @@
+.ug_star {
+  margin-left: 35px;
+  color: #000;
+}
+.ug_star:before {
+  background: url("../../../../../contents/resources/img/estrella.png");
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  content: " ";
+  display: block;
+  height: 25px;
+  left: -33px;
+  position: relative;
+  top: 10px;
+  width: 25px;
+  z-index: 5;
+}

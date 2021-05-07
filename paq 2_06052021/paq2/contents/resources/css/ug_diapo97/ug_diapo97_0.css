@@ -1,0 +1,104 @@
+#jimena1{
+  line-height:20px;
+  height:182px;
+  width:159px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:auto;
+  top:auto;
+  }
+#nubeDer4 {
+    line-height: 20px;
+    height: 116px;
+    width: 289px;
+    font-size: 16px;
+    margin: -10px 0px 0px;
+    position: absolute;
+    left: 420px;
+    top: 115px;
+}
+#nubeIzq2 {
+    line-height: 20px;
+    height: 75px;
+    width: 255px;
+    font-size: 16px;
+    margin: -10px 0px 0px;
+    position: absolute;
+    left: 200px;
+    top: 32px;
+}
+#caja3{
+  line-height:20px;
+  height:296px;
+  width:688px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:167px;
+  top:142px;
+  }
+
+#estrella4{
+  line-height:20px;
+  height:43px;
+  width:320px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:600px;
+  top:400px;
+  }
+
+#botondoc5{
+  line-height:20px;
+  height:63px;
+  width:113px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:717.972px;
+  top:370.962px;
+  }
+
+
+#grafico1, #grafico2, #grafico3
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  margin: 10px;
+  opacity: 0;
+}
+
+#proceso
+{
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+
+#santiago2{
+  line-height:20px;
+  height:432px;
+  width:143px;
+  font-size:13px;
+  margin:0px;
+  position:absolute;
+  left:760px;
+  top:-1px;
+  }
+  
+#nube8 {
+    height: 134px !important;
+    width: 420px !important;
+    position: absolute !important;
+    left: -88px !important;
+    top: -9px !important;
+}
+
+
+#nube4{
+  height: 50px !important;
+
+}

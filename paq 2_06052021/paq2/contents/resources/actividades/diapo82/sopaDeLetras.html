@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link type="text/css" href="ardoraFiles/css/normalize.css" rel="stylesheet" />
+	<link type="text/css" href="Sopa_mod2_resources/css/ardoraSopa.css" rel="stylesheet" />
+	<script language="javascript" type="text/javascript" src="ardoraFiles/js/jquery-2.0.0.min.js"></script>
+	<script language="javascript" type="text/javascript" src="ardoraFiles/js/jquery-ui.min.js"></script>
+	<script src="ardoraFiles/js/jquery.ui.core.min.js"></script>
+	<script src="ardoraFiles/js/jquery.ui.widget.min.js"></script>
+	<script src="ardoraFiles/js/jquery.ui.mouse.min.js"></script>
+	<script language="javascript" type="text/javascript" src="Sopa_mod2_resources/js/ardoraSopaCFG.js"></script>
+	<script language="javascript" type="text/javascript" src="Sopa_mod2_resources/js/ardoraScorm.js"></script>
+	<script language="javascript" type="text/javascript" src="Sopa_mod2_resources/js/ardoraSopa.js"></script>
+	<script language="javascript" type="text/javascript" src="Sopa_mod2_resources/js/ardoraCanvasDraw.js"></script>
+	<script language="javascript" type="text/javascript" src="Sopa_mod2_resources/js/ardoraTab.js"></script>
+	<script language="javascript" type="text/javascript" src="Sopa_mod2_resources/js/ardoraPosts.js"></script>
+	<link rel="stylesheet" href="icono-master/dist/icono.min.css">
+	<style type="text/css" media="screen">
+		span#recuadro {
+			position: absolute;
+			width: 180px;
+			height: 230px;
+			border: solid 2px rgb(9, 187, 225);
+			border-radius: 9px;
+			top: -1px;
+			left: 405px;
+		}
+		#ico>strong
+		{
+			position: relative;
+			top: 50px;
+			left: -70px;
+		}
+		#ico {
+			height: 150px;
+			width: 200px;
+			position: absolute;
+			z-index: 10;
+			margin-top: 270px;
+			left: 444px;
+		}
+		#ico span {
+			display: inline-block;
+			border: 1px solid #666;
+			padding: 20px;
+			position: relative;
+			cursor: pointer;
+			margin-top: 25px;
+			margin-left: 56px;
+		}
+		[class*=icono-] {
+			display: inline-block;
+			vertical-align: middle;
+			position: relative;
+			font-style: normal;
+			color: #282424;
+			text-align: left;
+			text-indent: -9999px;
+			direction: ltr;
+		}
+	</style>
+	<script>
+    // Obtenemos el nombre del navegador
+    var nav = navigator.appName;
+
+    // Detectamos si nos visitan desde IE
+    if(nav == "Microsoft Internet Explorer"){
+        // Convertimos en minusculas la cadena que devuelve userAgent
+        var ie = navigator.userAgent.toLowerCase();
+        // Extraemos de la cadena la version de IE
+        var version = parseInt(ie.split('msie')[1]);
+
+        // Dependiendo de la version mostramos un resultado
+        switch(version){
+        	case 8:
+        	$(document).ready( function () {
+        		$("#ico span").html('<img src="icono-master/img/Restart.png" height="30" width="30" alt="">');
+        	});
+        	break;
+        	default:
+        	break;
+        }
+    } 
+    jQuery(document).ready(function($) {
+    	$("#ico").click(function(event) {
+    		location.reload();
+    	});
+    });
+</script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+	<div id="ardoraMain">
+		<div id="ardoraEnu"></div>
+		<div id="ardoraAct">
+			<canvas id="ardoraActBoard" width="990px" height="600px"></canvas>
+			<span id="recuadro"></span>
+			<canvas id="ardoraActSel" width="990px" height="600px"></canvas>
+			<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+		</div>
+	</div>
+	<div id="ardoraAlumSCORM"><p></p></div>
+	<div id="ico">
+		<span><i class="icono-sync"></i></span><strong>Reiniciar</strong>
+	</div>
+</body></html>
