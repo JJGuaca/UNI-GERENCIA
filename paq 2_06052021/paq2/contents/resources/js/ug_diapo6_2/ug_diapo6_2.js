@@ -6,13 +6,14 @@ function avatar1(){
 function avatar2(){
 // $('#Juan200').attr('src', '../resources/html/avatar_8santiago.html');
  $('#Juan201').attr('src', '../resources/html/AVATARES/12b2_santiago_HTML5 Canvas.html');
+ $("#s1").click();
 }
 var diapositiva="6_2";//diapositiva actual 
     var pre="PR_Mod"+fixedNumModulo+"Diapo"+diapositiva;// prefijo de variable[Mod2Diapo10]
     console.log("Carga de : [ "+pre+" ]");
 //////////////////////////////////////
-    $Tiempo_Avatar1="26"*Segundos;// X segundos primer tiempo $1 
-    $Tiempo_Avatar2="10"*Segundos;// X segundos segundo tiempo $2 
+    $Tiempo_Avatar1="25"*Segundos;// X segundos primer tiempo $1 
+    $Tiempo_Avatar2="5"*Segundos;// X segundos segundo tiempo $2 
     $Tiempo_Avatar3="0"*Segundos;// X segundos segundo tiempo $2 
     $Tiempo_Avatar4="0"*Segundos;// X segundos segundo tiempo $2 
     $NombreAvatar1="";//Nombre del primer avatar[SOLO SE MANEJAN MINUSCULAS]
@@ -52,6 +53,14 @@ jQuery(document).ready(function($) {
    $("#img1").css("opacity",1);
  }
 });
+
+setTimeout(function(){
+    PrimerEvento();
+    setTimeout(function(){
+      SegundoEvento();
+    },$Tiempo_Avatar2);
+  }, $Tiempo_Avatar1);
+
 /**
  * [allTime elementos que siempre apareceran sin importar si es por primera vez o no]
  */
@@ -70,13 +79,7 @@ $(".avatar2").html(avatar($UrlAvatar2,$NombreAvatar2));
 */
   avatar1();
 
-  setTimeout(function(){
-    PrimerEvento();
-    setTimeout(function(){
-      SegundoEvento();
-    },$Tiempo_Avatar2);
-  }, $Tiempo_Avatar1);
-
+  
 
 /////////////////////////////
 }
@@ -92,8 +95,6 @@ $("#img1").animate({
   "opacity":1
 },2000,function(){
   fin();
-  $("#s1").click();
-
 })
 $("#caja5").show();
 

@@ -1,13 +1,13 @@
 function avatar1(){
-  $('#Juan200').attr('src', '../resources/html/AVATARES/10a_santiago_HTML5 Canvas.html');
+  $('#Juan201').attr('src', '../resources/html/AVATARES/10a_santiago_HTML5 Canvas.html');
 }
 
 function avatar2(){
-  $('#Juan201').attr('src', '../resources/html/AVATARES/10_jimena_HTML5 Canvas.html');
+  $('#Juan200').attr('src', '../resources/html/AVATARES/10_jimena_HTML5 Canvas.html');
 }
 
 function avatar3(){
-  $('#Juan202').attr('src', '../resources/html/AVATARES/10b_santiago_HTML5 Canvas.html ');
+  $('#Juan201').attr('src', '../resources/html/AVATARES/10b_santiago_HTML5 Canvas.html ');
 }
 
 
@@ -15,7 +15,7 @@ var diapositiva=7;//diapositiva actual
     var pre="PR_Mod"+fixedNumModulo+"Diapo"+diapositiva;// prefijo de variable[Mod2Diapo10]
     console.log("Carga de : [ "+pre+" ]");
 //////////////////////////////////////
-    $Tiempo_Avatar1="31"*Segundos;// X segundos primer tiempo $1 
+    $Tiempo_Avatar1="29"*Segundos;// X segundos primer tiempo $1 
     $Tiempo_Avatar2="19"*Segundos;// X segundos segundo tiempo $2 
     $Tiempo_Avatar3="22"*Segundos;// X segundos segundo tiempo $2 
     $Tiempo_Avatar4="0"*Segundos;// X segundos segundo tiempo $2 
@@ -122,16 +122,16 @@ avatar2();
    showAvatar($NombreAvatar3);//estado del avatar
 */
 avatar3();
-
+  $("#nubeIzq4").hide();
   $("#nube3").html('Efectivamente Jimena, ellos van a actuar a favor o en contra del proyecto si se ven afectados y si tienen poder para hacerlo. Por eso tendremos que establecer, qué tan estrechamente son afectados y qué tanto poder tienen para oponerse o apoyar en la realización del proyecto.');
-
+  $("#s1").click();
 }
 
 var TercerEvento =function(){
   desbloquear("#botondoc6");
   pulseUnico('botondoc6');
   $("#botondoc6").click(function(){
-
+  $("#s1").click();
 
  });
 

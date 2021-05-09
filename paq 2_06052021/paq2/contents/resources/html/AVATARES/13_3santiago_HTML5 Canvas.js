@@ -6538,7 +6538,7 @@ if (reversed == null) { reversed = false; }
 	}
 	this.frame_496 = function() {
 		/* stop();*/
-		playSound("_13_3santiago");
+		//playSound("_13_3santiago");
 	}
 
 	// actions tween:

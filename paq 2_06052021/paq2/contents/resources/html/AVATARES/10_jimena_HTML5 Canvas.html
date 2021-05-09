@@ -11,17 +11,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>10b_santiago_HTML5 Canvas</title>
+<title>10_jimena_HTML5 Canvas</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="10b_santiago_HTML5 Canvas.js?1620577796735"></script>
+<script src="10_jimena_HTML5 Canvas.js?1620576866475"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("A9266AB547A7D04B952703B2F414A6D6");
+	var comp=AdobeAn.getComposition("A34104583A38084FAE5BF6EC60AC729E");
 	var lib=comp.getLibrary();
 	var loader = new createjs.LoadQueue(false);
 	loader.installPlugin(createjs.Sound);
@@ -43,7 +43,7 @@ function handleComplete(evt,comp) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib._10b_santiago_HTML5Canvas();
+	exportRoot = new lib._10_jimena_HTML5Canvas();
 	stage = new lib.Stage(canvas);	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
@@ -62,9 +62,9 @@ function playSound(id, loop, offset) {
 <!-- write your code here -->
 </head>
 <body onload="init();" style="margin:0px;">
-	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:148px; height:400px">
-		<canvas id="canvas" width="148" height="400" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:148px; height:400px; position: absolute; left: 0px; top: 0px; display: block;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:147px; height:400px">
+		<canvas id="canvas" width="147" height="400" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:147px; height:400px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
 </body>

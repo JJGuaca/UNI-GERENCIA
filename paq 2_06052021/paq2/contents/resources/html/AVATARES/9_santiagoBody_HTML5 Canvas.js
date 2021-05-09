@@ -6537,7 +6537,7 @@ if (reversed == null) { reversed = false; }
 		playSound("_9_santiago");
 	}
 	this.frame_484 = function() {
-		playSound("_9_santiago");
+		//playSound("_9_santiago");
 	}
 	this.frame_496 = function() {
 		/* stop();*/

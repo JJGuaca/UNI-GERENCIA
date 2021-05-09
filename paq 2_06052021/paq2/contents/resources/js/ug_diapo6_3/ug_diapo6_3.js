@@ -1,5 +1,6 @@
 function avatar1(){
   $('#Juan200').attr('src', '../resources/html/AVATARES/13_3santiago_HTML5 Canvas.html');
+   $("#s1").click();
 }
 
 var diapositiva='6_3';//diapositiva actual 
@@ -88,7 +89,7 @@ var PrimerEvento =function(){
   $("#img1").animate({
     "opacity":1
   },2000,function(){
-    $("#s1").click();
+    //$("#s1").click();
     fin();
   })
 

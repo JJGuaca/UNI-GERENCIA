@@ -5,15 +5,14 @@ function avatar1(){
 
 function avatar2(){
 // $('#Juan200').attr('src', '../resources/html/avatar_8santiago.html');
-$('#Juan200').hide();
- $('#Juan201').attr('src', '../resources/html/AVATARES/10b_1santiago_HTML5 Canvas.html');
+ $('#Juan200').attr('src', '../resources/html/AVATARES/10b_1santiago_HTML5 Canvas.html');
 }
 
 var diapositiva='6_1';//diapositiva actual 
     var pre="PR_Mod"+fixedNumModulo+"Diapo"+diapositiva;// prefijo de variable[Mod2Diapo10]
     console.log("Carga de : [ "+pre+" ]");
 //////////////////////////////////////
-    $Tiempo_Avatar1="29"*Segundos;// X segundos primer tiempo $1 
+    $Tiempo_Avatar1="30"*Segundos;// X segundos primer tiempo $1 
     $Tiempo_Avatar2="10"*Segundos;// X segundos segundo tiempo $2 
     $Tiempo_Avatar3="0"*Segundos;// X segundos segundo tiempo $2 
     $Tiempo_Avatar4="0"*Segundos;// X segundos segundo tiempo $2 
