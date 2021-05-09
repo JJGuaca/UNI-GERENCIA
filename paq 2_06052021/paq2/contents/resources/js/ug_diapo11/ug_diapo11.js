@@ -1,5 +1,5 @@
 function avatar1(){
-  $('#Juan200').attr('src','../resources/html/AVATARES/15_santiago1_HTML5 Canvas.html');
+  $('#Juan200').attr('src','../resources/html/AVATARES/15_santiago_HTML5 Canvas.html');
 //  $('#Juan200').attr('src', '../resources/html/avatar_15santiago.html');
 }
 
